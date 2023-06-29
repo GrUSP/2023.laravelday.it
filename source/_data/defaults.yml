@@ -13,7 +13,7 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Compra il biglietto"
-  buy_tickets_url: "https://laravelday-2023.eventbrite.com"
+  buy_tickets_url: "https://ti.to/grusp/laravelday-2023"
   # additional info for microdata / schema.org
   md_city: "Verona"
   md_province: "VR"
@@ -34,7 +34,7 @@ conference:
   countdown_hours: "ore"
   countdown_minutes: "minuti"
   countdown_seconds: "secondi"
-  ticket_button_visible: false
+  ticket_button_visible: true
   hero_buy_tickets_label: "Assicurati un posto"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
@@ -51,17 +51,17 @@ conference:
   cfp_readmore_label: "Proponi il tuo talk"
   cfp_open_label: "Hai tempo fino al"
   cfp_open_title: "La Call For Paper è aperta!"
-  cfp_deadline: 2023-09-10T22:00+01:00
+  cfp_deadline: 2023-09-10T23:00+01:00
   cfp_register_label: "Proponi il tuo talk"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
   geninfo_description: "<p>Il <strong>laravel</strong>day è la prima conferenza tutta italiana, nata dalla community per la community, che porta case study reali e best practice raccontati da persone appassionate e professioniste che usano Laravel.</p>
-  <p><strong>Giovedì 17 Novembre sarà un'intera giornata dedicata al framework PHP</strong> e al suo ecosistema di package e servizi utilizzati da migliaia di developer in tutto il mondo. Che tu abbia esperienza o sia neofita di Laravel, ti assicuriamo che i nostri talk sapranno incuriosirti!</p>
+  <p><strong>Giovedì 9 Novembre sarà un'intera giornata dedicata al framework PHP</strong> e al suo ecosistema di package e servizi utilizzati da migliaia di developer in tutto il mondo. Che tu abbia esperienza o sia neofita di Laravel, ti assicuriamo che i nostri talk sapranno incuriosirti!</p>
   <p>Potrai seguire laravelday 2023 sia <strong>online</strong> che <strong>in presenza a Verona</strong>.</p>
-  <p>Il giorno prima della conferenza (Mercoledì 16 Novembre), nella stessa location, potrai seguire uno dei <b>workshop</b> per approfondire le tue competenze. Saranno annunciati a breve e i biglietti saranno venduti separatamente.</p>
-  <p>Il giorno dopo la conferenza (Venerdì 18 Novembre), nella stessa location, ci sarà <a href='https://vueday.it'>vueday</a>, la conferenza GrUSP dedicata a <b>Vue.js.</b> Con il biglietto per laravelday puoi avere uno <b>sconto sul biglietto per vueday!</b></p>
+  <p>Il giorno prima della conferenza (Mercoledì 8 Novembre), nella stessa location, potrai seguire uno dei <b>workshop</b> per approfondire le tue competenze. Saranno annunciati a breve e i biglietti saranno venduti separatamente.</p>
+  <p>Il giorno dopo la conferenza (Venerdì 10 Novembre), nella stessa location, ci sarà <a href='https://vueday.it'>vueday</a>, la conferenza GrUSP dedicata a <b>Vue.js.</b> Con il biglietto per laravelday puoi avere uno <b>sconto sul biglietto per vueday!</b></p>
   <p>Scopri tutti i dettagli dell'evento!</p>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
@@ -132,11 +132,11 @@ conference:
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
   youtube_playlist_id: "qy_0rbl9xng"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
-  # vimeo_showcase_id: "italianlaravelday"
+  # vimeo_showcase_id: "laravelday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
   location_visible: true
   location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
+  location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
   location_maps_label: "Come arrivarci"
   location_readmore_label: "Maggiori informazioni"
@@ -154,7 +154,7 @@ conference:
   social_fb_url: "https://www.facebook.com/laravelday"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
   social_twitter_url: "https://twitter.com/laraveldayit"
-  social_vimeo_url: "https://vimeo.com/channels/italianlaravelday"
+  social_vimeo_url: "https://vimeo.com/channels/laravelday"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
   # 404
