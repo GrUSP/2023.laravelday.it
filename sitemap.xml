@@ -2,35 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2023.laravelday.it/welcome/about.html</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2023.laravelday.it/workshop/workshop_2.html</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.laravelday.it/schedule/index.html</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.laravelday.it/sponsor/index.html</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.laravelday.it/talks_speakers/index.html</loc>
     
     <lastmod>2023-06-29</lastmod>
     
@@ -80,6 +52,34 @@
   
   <url>
     <loc>https://2023.laravelday.it/welcome/where.html</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.laravelday.it/talks_speakers/index.html</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.laravelday.it/welcome/about.html</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.laravelday.it/schedule/index.html</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.laravelday.it/sponsor/index.html</loc>
     
     <lastmod>2023-06-29</lastmod>
     
