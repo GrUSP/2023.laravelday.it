@@ -15,9 +15,9 @@ more:
     "<p>Quest'anno torniamo nuovamente <strong>in presenza dall'hotel San Marco di Verona e online</strong> per vivere una giornata dedicata a Laravel. Ti proponiamo un laravelday ricco di curiosità che riguardano tanto il framework quanto il suo uso a livello professionale.</p><p>Speaker con esperienza e talento condivideranno con te le loro giornate, le loro esperienze e i trucchi del mestiere e avrai occasione di confrontarti con loro durante i momenti di networking.</p>"
   content_2:
 past_edition:
-  title: "Guarda il laravelday pre-party"
+  title: "Guarda il laravelday pre-party 2022, presto online il 2023!"
   video_url: "https://www.youtube.com/embed/qy_0rbl9xng"
-  video_caption: "Guarda il pre-party dove presentiamo l'evento"
+  video_caption: "Guarda il pre-party dove presentiamo l'evento del 2022"
 team:
   title: "Il team"
   intro: ""
@@ -31,9 +31,9 @@ team:
       role: "boss in charge"
       pic_filename: "giulia.jpg"
     member_3:
-      name: "Michela Bertaina"
+      name: "Giorgio Fochesato"
       role: "Community Manager"
-      pic_filename: "michela.jpg"
+      pic_filename: "giorgio.jpg"
     member_4:
       name: "Giovanna Ferrari"
       role: "sponsor management"

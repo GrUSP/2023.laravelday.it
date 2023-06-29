@@ -6,17 +6,18 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
-  talks_speakers: speaker e talk
+  welcome/cfp.html: call for paper
+  #talks_speakers: speaker e talk
   # scommentare per generare pagina
-  schedule: schedule
+  #schedule: schedule
   # menu item for workshop
-  workshop: workshop
+  #workshop: workshop
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-workshop_submenu:
-   workshop_TDD: TDD con Laravel
-   workshop_laravel-vue: Laravel Vue SPA
+#workshop_submenu:
+#   workshop_TDD: TDD con Laravel
+#   workshop_laravel-vue: Laravel Vue SPA
 
 # welcome submenu
 welcome_submenu:
