@@ -103,12 +103,12 @@ html(lang=config.language)
         }
       }
 
-    body
-      #content-outer
-        include header.pug
-        #content-inner(role="main")
-          if body
-            div!= body
-          else
-            block content
-      include footer.pug
+  body
+    #content-outer
+      include header.pug
+      #content-inner(role="main")
+        if body
+          div!= body
+        else
+          block content
+    include footer.pug
