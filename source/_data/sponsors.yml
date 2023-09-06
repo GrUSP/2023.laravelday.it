@@ -32,6 +32,10 @@ silver:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor3:
+    name: "Offdigit"
+    logo_filename: "offdigit.svg"
+    site_url: "https://offdigit.com/"
 bronze:
   sponsor2:
     name: "stickermule"
