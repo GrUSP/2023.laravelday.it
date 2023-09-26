@@ -7,7 +7,7 @@ schedule_under_construction_description: "We are still defining the schedule. Pl
 speaker_1: &michael_di_prisco
   speaker_in_speaker_lists: true
   speaker_name: Michael Di Prisco
-  speaker_pic_filename: michael_di_prisco.jpeg
+  speaker_pic_filename: michael_di_prisco.png
   speaker_role: "Senior Back-End Developer @ Jointly"
   speaker_bio: "Attualmente IT Training Manager presso Facile.it.
 Sviluppo progetti digitali da svariati anni, e metà della mia carriera l’ho dedicata al mondo PHP e Laravel, approfondendo con il tempo tematiche legate al design e alle architetture del software.
@@ -32,7 +32,7 @@ speaker_2: &roberto_butti
 speaker_3: &christian_nastasi
   speaker_in_speaker_lists: true
   speaker_name: Christian Nastasi
-  speaker_pic_filename: christian_nastasi.jpg
+  speaker_pic_filename: christian_nastasi.png
   speaker_role: "IT Training Manager @ Facile.it"
   speaker_bio: "Veterano del Laravel Day. Più di 20 anni di esperienza nel mondo dello sviluppo software ricoprendo i più svariati ruoli: Developer, Architect, Technical Coach, Startupper, Team Leader ed infine IT Training Manager. Da più di 10 anni sviluppo attivamente con PHP e diversi Framework, tra cui ovviamente Laravel."
   speaker_github_url: "https://github.com/cnastasi"
@@ -73,7 +73,7 @@ speaker_6: &alberto_peripolli
 speaker_7: &mario_carotti
   speaker_in_speaker_lists: true
   speaker_name: Mario Carotti
-  speaker_pic_filename: mario_carotti.jpg
+  speaker_pic_filename: mario_carotti.png
   speaker_role: "Backend Engineer @ Jobtech"
   speaker_bio: "La passione per la continua ricerca è sicuramente la caratteristica che mi contraddistingue. Il primo approccio con il codice fu attraverso un gioco di ruolo play by chat a tema Dragonball. Non capii nulla di quel mondo e fu proprio questo che mi spinse ad andare avanti per saperne di più e scoprire quella che sarebbe diventata poi la mia passione e il mio lavoro. Oggi lavoro come Backend Engineer in Jobtech, una agenzia per il lavoro di nuova generazione dove ogni percorso lavorativo prende forma insieme a persone che sanno riconoscere le tonalità del talento."
   speaker_github_url: ""
@@ -83,7 +83,7 @@ speaker_7: &mario_carotti
 speaker_8: &jenno_ramcaj
   speaker_in_speaker_lists: true
   speaker_name: Jenno Ramcaj
-  speaker_pic_filename: jenno_ramcaj.jpg
+  speaker_pic_filename: jenno_ramcaj.png
   speaker_role: "Co-founder @ Magmatic"
   speaker_bio: "Sviluppatore back-end e, nel tempo libero, amministratore di sistema. Per gioco faccio un po' il DevOps. Amante di Laravel e della sua magnifica community."
   speaker_github_url: ""
