@@ -137,7 +137,7 @@ days:
         item_type: "service"
         start_datetime: 2023-11-09T11:05+02:00
         end_datetime: 2023-11-09T11:30+02:00
-        talk_title: "Coffee brake"
+        talk_title: "Coffee break"
         service_icon: "cutlery"
       talk_3:
         item_type: "service"
@@ -154,7 +154,7 @@ days:
         item_type: "service"
         start_datetime: 2023-11-09T16:15+02:00
         end_datetime: 2023-11-09T16:40+02:00
-        talk_title: "Coffee brake"
+        talk_title: "Coffee break"
         service_icon: "coffee"
       happy-hour:
         item_type: "service"
