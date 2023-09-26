@@ -125,33 +125,50 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2023-11-09T09:00
     title: "Day 1"
     talks:
       talk_1:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
+        start_datetime: 2023-11-09T09:00
+        end_datetime: 2023-11-09T09:30
         talk_title: "Check-in"
       talk_2:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        start_datetime: 2023-11-09T11:05+02:00
+        end_datetime: 2023-11-09T11:30+02:00
+        talk_title: "Coffee brake"
+        service_icon: "cutlery"
+      talk_3:
+        item_type: "service"
+        start_datetime: 2023-11-09T13:15+02:00
+        end_datetime: 2023-11-09T13:45+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
+      talk_4:
+        item_type: "service"
+        start_datetime: 2023-11-09T14:35+02:00
+        end_datetime: 2023-11-09T14:55+02:00
+        talk_title: "Lightning"
+      talk_5:
+        item_type: "service"
+        start_datetime: 2023-11-09T16:15+02:00
+        end_datetime: 2023-11-09T16:40+02:00
+        talk_title: "Coffee brake"
+        service_icon: "coffee"
       happy-hour:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
+        start_datetime: 2023-11-09T18:00+02:00
+        end_datetime: 2023-11-09T18:10+02:00
+        talk_title: "Chiusura"
         service_icon: "glass"
 
       # talk
       #keynote:
       #  item_type: "keynote"
       #  track: *track_1
-      #  start_datetime: 2022-05-19T09:30+02:00
-      #  end_datetime: 2022-05-19T10:25+02:00
+      #  start_datetime: 2023-11-09T09:30+02:00
+      #  end_datetime: 2023-11-09T10:25+02:00
       #  talk_title: ""
       #  talk_description: ""
       #  talk_video_url:
@@ -160,8 +177,8 @@ days:
       talk_michael_di_prisco:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2023-11-09T09:45+02:00
+        end_datetime: 2023-11-09T10:25+02:00
         talk_title: "Come Redis ha rotto il nostro applicativo."
         talk_description: "Le astrazioni sono fondamentali per semplificare lo sviluppo di applicazioni complesse, fornendo un'interfaccia uniforme per interagire con svariati componenti del sistema.
 
@@ -171,11 +188,64 @@ Con questa case history vorrei portare un'esperienza diretta di come i framework
         talk_video_url:
         speakers:
           speaker_1: *michael_di_prisco
+      talk_mario_carotti:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-11-09T10:25+02:00
+        end_datetime: 2023-11-09T11:05+02:00
+        talk_title: "Backup di prod in staging? Why not"
+        talk_description: "Tenere allineati gli ambienti di staging è prerogativa di tutti gli sviluppatori, un ambiente staging con dati anonimizzati di produzione porta svariati vantaggi: dal poter testare nuove funzionalità con dati molto più realistici, alla replica dei bug fino agli stress test. Il tutto seguendo nella maniera più accurata possibile il regolamento europeo (GDPR). Quando si parla di codice il gioco è facile grazie all'utilizzo di version control ma quando si parla di dati? E se questi dati fossero distribuiti su più microservizi? In Jobtech abbiamo sviluppato un servizio in Laravel 9.x che ci consente di avere una replica consistente e anonimizzata di produzione all'interno dei vari database di staging, semplicemente lanciando una pipeline di deploy direttamente da Bitbucket."
+        talk_video_url:
+        speakers:
+          speaker_1: *mario_carotti
+      talk_alberto_peripolli:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-11-09T11:30+02:00
+        end_datetime: 2023-11-09T12:05+02:00
+        talk_title: "🤖 ChatGPT con Laravel & beyond"
+        talk_description: "Ormai di ChatGPT, il celebre servizio LLM di OpenAI, se ne sente parlare dappertutto.
+Farò una breve spiegazione di cos'è, descriverò le best practices per il suo utilizzo e l'integrazione con Laravel.
+Descriverò come utilizzare le API sia per la completition che per la chat, lo stream mode e le potenzialità della nuova Function calling.
+Cos'è l'embedding, a cosa serve? Come utilizzarlo per interrogare una base di dati ed ottenere una risposta sensata e con le fonti da chatGPT.
+Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto costruendo negli ultimi mesi."
+        talk_video_url:
+        speakers:
+          speaker_1: *alberto_peripolli
+      talk_valerio_barbera:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-11-09T12:05+02:00
+        end_datetime: 2023-11-09T12:40+02:00
+        talk_title: "Monitorare i software fa schifo"
+        talk_description: "Monitorare i software fa davvero schifo.
+E’ questo che pensa la maggior parte degli sviluppatori riguardo al monitoraggio.
+È visto come l’ennesimo task da inserire nella già infinita lista di cose da fare e che probabilmente non faremo perché non ci sarà tempo.
+A volte i tempi di sviluppo sono super stretti, il budget è poco, il software è stato sviluppato da altri ed è un casino metterci le mani… e al tempo stesso i clienti si lamentano e mettono continuamente sotto pressione.
+Dover spendere tempo e soldi per apprendere nuove strategie o usare nuovi tool, alla fine non è altro che un'ulteriore carico di lavoro che andrà a peggiorare una situazione già tesa.
+
+Attraverso la mia esperienza sul campo ho individuato alcuni semplici accorgimenti nelle abitudini di monitoraggio per consentire ai team di sviluppo di eliminare rapidamente la maggior parte dei momenti di frustrazione, ridurre tempi e costi dei cicli di sviluppo e mettere al sicuro le relazioni con i clienti e partner migliori."
+        talk_video_url:
+        speakers:
+          speaker_1: *valerio_barbera
+      talk_jenno_ramcaj:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-11-09T12:40+02:00
+        end_datetime: 2023-11-09T13:15+02:00
+        talk_title: "Livewire vs InertiaJS: quale scegliere?"
+        talk_description: "Laravel nasce con l'ottica di essere utilizzato per la metodologia RPD (Rapid Product Development) e grazie ai suoi tantissimi pacchetti e librerie questo è molto più facile.
+Oggigiorno non è importante solo la velocità di sviluppo, ma anche la user interface e la user experience. Riguardo a quest'ultimo punto, framework front-end come React, Vue e Angular, ci hanno abituato ad avere semplice interattività con le applicazioni web, dandoci un look and feel imparagonabile e nettamente migliore rispetto a quello che era il WEB 1.0.
+Ora, la domanda che viene naturale farsi è: in che modo Laravel cerca di unire la metodologia RPD con il look and feel dei framework front-end? Ed è qui che entrano in gioco le tecnologie di cui parleremo oggi: Livewire e InertiaJS.
+Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si avvicina di più alla filosofia RPD di Laravel? Quale è più semplice nella manutenzione e nell'aggiornamento? Quale è più veloce?"
+        talk_video_url:
+        speakers:
+          speaker_1: *jenno_ramcaj
       talk_roberto_butti:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2023-11-09T14:55+02:00
+        end_datetime: 2023-11-09T15:35+02:00
         talk_title: "Vivere serenamente con Laravel"
         talk_description: "Oggi, l'ecosistema Laravel è caratterizzato da un'enorme quantità di strumenti, servizi e documentazione di ottima qualità.
 Ogni singolo elemento dell'ecosistema è progettato per offrire agli sviluppatori finali un livello sempre più elevato di Developer eXperience e una maggiore produttività.
@@ -191,8 +261,8 @@ Sono temi diversi ma verranno tutti affrontati con il concetto di serenità come
       talk_christian_nastasi:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2023-11-09T15:35+02:00
+        end_datetime: 2023-11-09T16:15+02:00
         talk_title: "Event Sourcing con Laravel"
         talk_description: "Event Sourcing e CQRS: Tutti ne parlano ma nessuno li applica: troppo difficile dicono, per qualcuno è come schiacciare una mosca con un cannone. 
 
@@ -208,8 +278,8 @@ Il talk sarà diviso in due parti: nella prima vi fornirò una piccola infarinat
       talk_davide_cariola:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2023-11-09T16:40+02:00
+        end_datetime: 2023-11-09T17:20+02:00
         talk_title: "FilamentPHP: il tuo admin panel sotto steroidi!"
         talk_description: "FilamentPHP e’ un framework per la creazione di pannelli di amministrazione e altre applicazioni web, estremamente potente, versatile e personalizzabile.
 Al contrario di altre soluzioni Laravel, FilamentPHP sfrutta il TALL stack, preferendo la coppia AlpineJS-Livewire ad un piu’ pesante VueJs.
@@ -223,63 +293,10 @@ In questo talk, vedremo come FilamentPHP puo’ essere utilizzato per creare pan
       talk_gabriele_cavigiolo:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2023-11-09T17:20+02:00
+        end_datetime: 2023-11-09T18:00+02:00
         talk_title: "Laravel containerizzato per AWS Fargate"
         talk_description: "AWS ECS in tandem con Fargate offre nuove opportunità di deploy di applicazioni conteinerizzate: il nostro framework preferito riuscirà a cavarsela nel regno di Node, Go e Rust? La risposta è: indubbiamente SI! Laravel rocks!!"
         talk_video_url:
         speakers:
           speaker_1: *gabriele_cavigiolo
-      talk_alberto_peripolli:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "🤖 ChatGPT con Laravel & beyond"
-        talk_description: "Ormai di ChatGPT, il celebre servizio LLM di OpenAI, se ne sente parlare dappertutto.
-Farò una breve spiegazione di cos'è, descriverò le best practices per il suo utilizzo e l'integrazione con Laravel.
-Descriverò come utilizzare le API sia per la completition che per la chat, lo stream mode e le potenzialità della nuova Function calling.
-Cos'è l'embedding, a cosa serve? Come utilizzarlo per interrogare una base di dati ed ottenere una risposta sensata e con le fonti da chatGPT.
-Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto costruendo negli ultimi mesi."
-        talk_video_url:
-        speakers:
-          speaker_1: *alberto_peripolli
-      talk_mario_carotti:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Backup di prod in staging? Why not"
-        talk_description: "Tenere allineati gli ambienti di staging è prerogativa di tutti gli sviluppatori, un ambiente staging con dati anonimizzati di produzione porta svariati vantaggi: dal poter testare nuove funzionalità con dati molto più realistici, alla replica dei bug fino agli stress test. Il tutto seguendo nella maniera più accurata possibile il regolamento europeo (GDPR). Quando si parla di codice il gioco è facile grazie all'utilizzo di version control ma quando si parla di dati? E se questi dati fossero distribuiti su più microservizi? In Jobtech abbiamo sviluppato un servizio in Laravel 9.x che ci consente di avere una replica consistente e anonimizzata di produzione all'interno dei vari database di staging, semplicemente lanciando una pipeline di deploy direttamente da Bitbucket."
-        talk_video_url:
-        speakers:
-          speaker_1: *mario_carotti
-      talk_jenno_ramcaj:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Livewire vs InertiaJS: quale scegliere?"
-        talk_description: "Laravel nasce con l'ottica di essere utilizzato per la metodologia RPD (Rapid Product Development) e grazie ai suoi tantissimi pacchetti e librerie questo è molto più facile.
-Oggigiorno non è importante solo la velocità di sviluppo, ma anche la user interface e la user experience. Riguardo a quest'ultimo punto, framework front-end come React, Vue e Angular, ci hanno abituato ad avere semplice interattività con le applicazioni web, dandoci un look and feel imparagonabile e nettamente migliore rispetto a quello che era il WEB 1.0.
-Ora, la domanda che viene naturale farsi è: in che modo Laravel cerca di unire la metodologia RPD con il look and feel dei framework front-end? Ed è qui che entrano in gioco le tecnologie di cui parleremo oggi: Livewire e InertiaJS.
-Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si avvicina di più alla filosofia RPD di Laravel? Quale è più semplice nella manutenzione e nell'aggiornamento? Quale è più veloce?"
-        talk_video_url:
-        speakers:
-          speaker_1: *jenno_ramcaj
-      talk_valerio_barbera:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Monitorare i software fa schifo"
-        talk_description: "Monitorare i software fa davvero schifo.
-E’ questo che pensa la maggior parte degli sviluppatori riguardo al monitoraggio.
-È visto come l’ennesimo task da inserire nella già infinita lista di cose da fare e che probabilmente non faremo perché non ci sarà tempo.
-A volte i tempi di sviluppo sono super stretti, il budget è poco, il software è stato sviluppato da altri ed è un casino metterci le mani… e al tempo stesso i clienti si lamentano e mettono continuamente sotto pressione.
-Dover spendere tempo e soldi per apprendere nuove strategie o usare nuovi tool, alla fine non è altro che un'ulteriore carico di lavoro che andrà a peggiorare una situazione già tesa.
-
-Attraverso la mia esperienza sul campo ho individuato alcuni semplici accorgimenti nelle abitudini di monitoraggio per consentire ai team di sviluppo di eliminare rapidamente la maggior parte dei momenti di frustrazione, ridurre tempi e costi dei cicli di sviluppo e mettere al sicuro le relazioni con i clienti e partner migliori."
-        talk_video_url:
-        speakers:
-          speaker_1: *valerio_barbera
