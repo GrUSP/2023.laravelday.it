@@ -241,23 +241,16 @@ Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si av
         talk_video_url:
         speakers:
           speaker_1: *jenno_ramcaj
-      talk_roberto_butti:
+      talk_gabriele_cavigiolo:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-11-09T14:55+02:00
         end_datetime: 2023-11-09T15:35+02:00
-        talk_title: "Vivere serenamente con Laravel"
-        talk_description: "Oggi, l'ecosistema Laravel è caratterizzato da un'enorme quantità di strumenti, servizi e documentazione di ottima qualità.
-Ogni singolo elemento dell'ecosistema è progettato per offrire agli sviluppatori finali un livello sempre più elevato di Developer eXperience e una maggiore produttività.
-Questo al fine di consentire a noi sviluppatori di costruire software, applicazioni e librerie in modo rapido e affidabile. Ma tutto questo può avere benefici anche sulla serenità dello sviluppatore e del team?
-
-In questo talk verranno analizzati e considerati gli strumenti e le metodologie provenienti dall'ecosistema Laravel che permettono agli sviluppatori di acquisire un certo grado di fiducia,  e predicibilità in ciò che viene rilasciato. Utilizzando strumenti dell'ecosistema Laravel, affronteremo temi come \"il deploy del venerdì\", l'approccio alle scelte progettuali che solitamente generano opinioni contrastanti, la coerenza del codice e l'introduzione dei test automatici senza costi iniziali aggiuntivi.
-
-Sono temi diversi ma verranno tutti affrontati con il concetto di serenità come obiettivo. Affrontati con l’idea che la Developer eXperience non riguarda solo il momento in cui interagisce con gli strumenti di sviluppo, ma anche come questa esperienza influenza l'equilibrio tra \"lavoro\" e \"vita\".
-"
+        talk_title: "Laravel containerizzato per AWS Fargate"
+        talk_description: "AWS ECS in tandem con Fargate offre nuove opportunità di deploy di applicazioni conteinerizzate: il nostro framework preferito riuscirà a cavarsela nel regno di Node, Go e Rust? La risposta è: indubbiamente SI! Laravel rocks!!"
         talk_video_url:
         speakers:
-          speaker_1: *roberto_butti
+          speaker_1: *gabriele_cavigiolo
       talk_christian_nastasi:
         item_type: "talk"
         track: *track_1
@@ -290,13 +283,20 @@ In questo talk, vedremo come FilamentPHP puo’ essere utilizzato per creare pan
         talk_video_url:
         speakers:
           speaker_1: *davide_cariola
-      talk_gabriele_cavigiolo:
+      talk_roberto_butti:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-11-09T17:20+02:00
         end_datetime: 2023-11-09T18:00+02:00
-        talk_title: "Laravel containerizzato per AWS Fargate"
-        talk_description: "AWS ECS in tandem con Fargate offre nuove opportunità di deploy di applicazioni conteinerizzate: il nostro framework preferito riuscirà a cavarsela nel regno di Node, Go e Rust? La risposta è: indubbiamente SI! Laravel rocks!!"
+        talk_title: "Vivere serenamente con Laravel"
+        talk_description: "Oggi, l'ecosistema Laravel è caratterizzato da un'enorme quantità di strumenti, servizi e documentazione di ottima qualità.
+      Ogni singolo elemento dell'ecosistema è progettato per offrire agli sviluppatori finali un livello sempre più elevato di Developer eXperience e una maggiore produttività.
+      Questo al fine di consentire a noi sviluppatori di costruire software, applicazioni e librerie in modo rapido e affidabile. Ma tutto questo può avere benefici anche sulla serenità dello sviluppatore e del team?
+
+      In questo talk verranno analizzati e considerati gli strumenti e le metodologie provenienti dall'ecosistema Laravel che permettono agli sviluppatori di acquisire un certo grado di fiducia,  e predicibilità in ciò che viene rilasciato. Utilizzando strumenti dell'ecosistema Laravel, affronteremo temi come \"il deploy del venerdì\", l'approccio alle scelte progettuali che solitamente generano opinioni contrastanti, la coerenza del codice e l'introduzione dei test automatici senza costi iniziali aggiuntivi.
+
+      Sono temi diversi ma verranno tutti affrontati con il concetto di serenità come obiettivo. Affrontati con l’idea che la Developer eXperience non riguarda solo il momento in cui interagisce con gli strumenti di sviluppo, ma anche come questa esperienza influenza l'equilibrio tra \"lavoro\" e \"vita\".
+      "
         talk_video_url:
         speakers:
-          speaker_1: *gabriele_cavigiolo
+          speaker_1: *roberto_butti
