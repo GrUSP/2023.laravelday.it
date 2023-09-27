@@ -9,11 +9,7 @@ speaker_1: &michael_di_prisco
   speaker_name: Michael Di Prisco
   speaker_pic_filename: michael-diprisco.png
   speaker_role: "Senior Back-End Developer @ Jointly"
-  speaker_bio: "Attualmente IT Training Manager presso Facile.it.
-Sviluppo progetti digitali da svariati anni, e metà della mia carriera l’ho dedicata al mondo PHP e Laravel, approfondendo con il tempo tematiche legate al design e alle architetture del software.
-Nell’ultimo periodo invece mi sto occupando di formazione e crescita professionale all’interno della mia azienda.
-Sono lieto di partecipare al laravelday per la quarta volta.
-Sarà un’occasione interessante di condivisione e confronto con tutti voi."
+  speaker_bio: "Dieci anni nel mondo dello sviluppo come full-stack, ancora sto cercando di capirci qualcosa. Ho passato metà della mia carriera back-end su PHP e su Laravel, l'altra metà su Node."
   speaker_github_url: "https://github.com/Cadienvan"
   speaker_twitter_url: "https://twitter.com/cadienvan"
   is_mc: false
@@ -34,7 +30,11 @@ speaker_3: &christian_nastasi
   speaker_name: Christian Nastasi
   speaker_pic_filename: christian-nastasi.png
   speaker_role: "IT Training Manager @ Facile.it"
-  speaker_bio: "Veterano del Laravel Day. Più di 20 anni di esperienza nel mondo dello sviluppo software ricoprendo i più svariati ruoli: Developer, Architect, Technical Coach, Startupper, Team Leader ed infine IT Training Manager. Da più di 10 anni sviluppo attivamente con PHP e diversi Framework, tra cui ovviamente Laravel."
+  speaker_bio: "Attualmente IT Training Manager presso Facile.it.
+Sviluppo progetti digitali da svariati anni, e metà della mia carriera l’ho dedicata al mondo PHP e Laravel, approfondendo con il tempo tematiche legate al design e alle architetture del software.
+Nell’ultimo periodo invece mi sto occupando di formazione e crescita professionale all’interno della mia azienda.
+Sono lieto di partecipare al laravelday per la quarta volta.
+Sarà un’occasione interessante di condivisione e confronto con tutti voi."
   speaker_github_url: "https://github.com/cnastasi"
   speaker_twitter_url: ""
   is_mc: false
@@ -93,7 +93,7 @@ speaker_8: &jenno_ramcaj
 speaker_9: &valerio_barbera
   speaker_in_speaker_lists: true
   speaker_name: Valerio Barbera
-  speaker_pic_filename: valerio-barbera.jpeg
+  speaker_pic_filename: valerio-barbera.png
   speaker_role: "CTO @ Inspector.dev"
   speaker_bio: "Founder e CTO di Inspector.dev - tool di Code Execution Monitoring lanciato a Luglio 2020 e oggi utilizzato da più di 6000 software house in circa 20 paesi."
   speaker_github_url: ""
@@ -135,31 +135,31 @@ days:
         talk_title: "Check-in"
       talk_2:
         item_type: "service"
-        start_datetime: 2023-11-09T11:05+02:00
-        end_datetime: 2023-11-09T11:30+02:00
+        start_datetime: 2023-11-09T11:05
+        end_datetime: 2023-11-09T11:30
         talk_title: "Coffee break"
         service_icon: "cutlery"
       talk_3:
         item_type: "service"
-        start_datetime: 2023-11-09T13:15+02:00
-        end_datetime: 2023-11-09T13:45+02:00
+        start_datetime: 2023-11-09T13:15
+        end_datetime: 2023-11-09T13:45
         talk_title: "Lunch break"
         service_icon: "cutlery"
       talk_4:
         item_type: "service"
-        start_datetime: 2023-11-09T14:35+02:00
-        end_datetime: 2023-11-09T14:55+02:00
+        start_datetime: 2023-11-09T14:35
+        end_datetime: 2023-11-09T14:55
         talk_title: "Lightning"
       talk_5:
         item_type: "service"
-        start_datetime: 2023-11-09T16:15+02:00
-        end_datetime: 2023-11-09T16:40+02:00
+        start_datetime: 2023-11-09T16:15
+        end_datetime: 2023-11-09T16:40
         talk_title: "Coffee break"
         service_icon: "coffee"
       happy-hour:
         item_type: "service"
-        start_datetime: 2023-11-09T18:00+02:00
-        end_datetime: 2023-11-09T18:10+02:00
+        start_datetime: 2023-11-09T18:00
+        end_datetime: 2023-11-09T18:10
         talk_title: "Chiusura"
         service_icon: "glass"
 
@@ -167,8 +167,8 @@ days:
       #keynote:
       #  item_type: "keynote"
       #  track: *track_1
-      #  start_datetime: 2023-11-09T09:30+02:00
-      #  end_datetime: 2023-11-09T10:25+02:00
+      #  start_datetime: 2023-11-09T09:30
+      #  end_datetime: 2023-11-09T10:25
       #  talk_title: ""
       #  talk_description: ""
       #  talk_video_url:
@@ -177,8 +177,8 @@ days:
       talk_michael_di_prisco:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T09:45+02:00
-        end_datetime: 2023-11-09T10:25+02:00
+        start_datetime: 2023-11-09T09:45
+        end_datetime: 2023-11-09T10:25
         talk_title: "Come Redis ha rotto il nostro applicativo."
         talk_description: "Le astrazioni sono fondamentali per semplificare lo sviluppo di applicazioni complesse, fornendo un'interfaccia uniforme per interagire con svariati componenti del sistema.
 
@@ -191,8 +191,8 @@ Con questa case history vorrei portare un'esperienza diretta di come i framework
       talk_mario_carotti:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T10:25+02:00
-        end_datetime: 2023-11-09T11:05+02:00
+        start_datetime: 2023-11-09T10:25
+        end_datetime: 2023-11-09T11:05
         talk_title: "Backup di prod in staging? Why not"
         talk_description: "Tenere allineati gli ambienti di staging è prerogativa di tutti gli sviluppatori, un ambiente staging con dati anonimizzati di produzione porta svariati vantaggi: dal poter testare nuove funzionalità con dati molto più realistici, alla replica dei bug fino agli stress test. Il tutto seguendo nella maniera più accurata possibile il regolamento europeo (GDPR). Quando si parla di codice il gioco è facile grazie all'utilizzo di version control ma quando si parla di dati? E se questi dati fossero distribuiti su più microservizi? In Jobtech abbiamo sviluppato un servizio in Laravel 9.x che ci consente di avere una replica consistente e anonimizzata di produzione all'interno dei vari database di staging, semplicemente lanciando una pipeline di deploy direttamente da Bitbucket."
         talk_video_url:
@@ -201,8 +201,8 @@ Con questa case history vorrei portare un'esperienza diretta di come i framework
       talk_alberto_peripolli:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T11:30+02:00
-        end_datetime: 2023-11-09T12:05+02:00
+        start_datetime: 2023-11-09T11:30
+        end_datetime: 2023-11-09T12:05
         talk_title: "🤖 ChatGPT con Laravel & beyond"
         talk_description: "Ormai di ChatGPT, il celebre servizio LLM di OpenAI, se ne sente parlare dappertutto.
 Farò una breve spiegazione di cos'è, descriverò le best practices per il suo utilizzo e l'integrazione con Laravel.
@@ -212,27 +212,28 @@ Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto cos
         talk_video_url:
         speakers:
           speaker_1: *alberto_peripolli
-      talk_valerio_barbera:
+      talk_roberto_butti:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T12:05+02:00
-        end_datetime: 2023-11-09T12:40+02:00
-        talk_title: "Monitorare i software fa schifo"
-        talk_description: "Monitorare i software fa davvero schifo.
-E’ questo che pensa la maggior parte degli sviluppatori riguardo al monitoraggio.
-È visto come l’ennesimo task da inserire nella già infinita lista di cose da fare e che probabilmente non faremo perché non ci sarà tempo.
-A volte i tempi di sviluppo sono super stretti, il budget è poco, il software è stato sviluppato da altri ed è un casino metterci le mani… e al tempo stesso i clienti si lamentano e mettono continuamente sotto pressione.
-Dover spendere tempo e soldi per apprendere nuove strategie o usare nuovi tool, alla fine non è altro che un'ulteriore carico di lavoro che andrà a peggiorare una situazione già tesa.
+        start_datetime: 2023-11-09T12:05
+        end_datetime: 2023-11-09T12:40
+        talk_title: "Vivere serenamente con Laravel"
+        talk_description: "Oggi, l'ecosistema Laravel è caratterizzato da un'enorme quantità di strumenti, servizi e documentazione di ottima qualità.
+      Ogni singolo elemento dell'ecosistema è progettato per offrire agli sviluppatori finali un livello sempre più elevato di Developer eXperience e una maggiore produttività.
+      Questo al fine di consentire a noi sviluppatori di costruire software, applicazioni e librerie in modo rapido e affidabile. Ma tutto questo può avere benefici anche sulla serenità dello sviluppatore e del team?
 
-Attraverso la mia esperienza sul campo ho individuato alcuni semplici accorgimenti nelle abitudini di monitoraggio per consentire ai team di sviluppo di eliminare rapidamente la maggior parte dei momenti di frustrazione, ridurre tempi e costi dei cicli di sviluppo e mettere al sicuro le relazioni con i clienti e partner migliori."
+      In questo talk verranno analizzati e considerati gli strumenti e le metodologie provenienti dall'ecosistema Laravel che permettono agli sviluppatori di acquisire un certo grado di fiducia,  e predicibilità in ciò che viene rilasciato. Utilizzando strumenti dell'ecosistema Laravel, affronteremo temi come \"il deploy del venerdì\", l'approccio alle scelte progettuali che solitamente generano opinioni contrastanti, la coerenza del codice e l'introduzione dei test automatici senza costi iniziali aggiuntivi.
+
+      Sono temi diversi ma verranno tutti affrontati con il concetto di serenità come obiettivo. Affrontati con l’idea che la Developer eXperience non riguarda solo il momento in cui interagisce con gli strumenti di sviluppo, ma anche come questa esperienza influenza l'equilibrio tra \"lavoro\" e \"vita\".
+      "
         talk_video_url:
         speakers:
-          speaker_1: *valerio_barbera
+          speaker_1: *roberto_butti
       talk_jenno_ramcaj:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T12:40+02:00
-        end_datetime: 2023-11-09T13:15+02:00
+        start_datetime: 2023-11-09T12:40
+        end_datetime: 2023-11-09T13:15
         talk_title: "Livewire vs InertiaJS: quale scegliere?"
         talk_description: "Laravel nasce con l'ottica di essere utilizzato per la metodologia RPD (Rapid Product Development) e grazie ai suoi tantissimi pacchetti e librerie questo è molto più facile.
 Oggigiorno non è importante solo la velocità di sviluppo, ma anche la user interface e la user experience. Riguardo a quest'ultimo punto, framework front-end come React, Vue e Angular, ci hanno abituato ad avere semplice interattività con le applicazioni web, dandoci un look and feel imparagonabile e nettamente migliore rispetto a quello che era il WEB 1.0.
@@ -244,8 +245,8 @@ Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si av
       talk_gabriele_cavigiolo:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T14:55+02:00
-        end_datetime: 2023-11-09T15:35+02:00
+        start_datetime: 2023-11-09T14:55
+        end_datetime: 2023-11-09T15:35
         talk_title: "Laravel containerizzato per AWS Fargate"
         talk_description: "AWS ECS in tandem con Fargate offre nuove opportunità di deploy di applicazioni conteinerizzate: il nostro framework preferito riuscirà a cavarsela nel regno di Node, Go e Rust? La risposta è: indubbiamente SI! Laravel rocks!!"
         talk_video_url:
@@ -254,8 +255,8 @@ Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si av
       talk_christian_nastasi:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T15:35+02:00
-        end_datetime: 2023-11-09T16:15+02:00
+        start_datetime: 2023-11-09T15:35
+        end_datetime: 2023-11-09T16:15
         talk_title: "Event Sourcing con Laravel"
         talk_description: "Event Sourcing e CQRS: Tutti ne parlano ma nessuno li applica: troppo difficile dicono, per qualcuno è come schiacciare una mosca con un cannone. 
 
@@ -271,8 +272,8 @@ Il talk sarà diviso in due parti: nella prima vi fornirò una piccola infarinat
       talk_davide_cariola:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T16:40+02:00
-        end_datetime: 2023-11-09T17:20+02:00
+        start_datetime: 2023-11-09T16:40
+        end_datetime: 2023-11-09T17:20
         talk_title: "FilamentPHP: il tuo admin panel sotto steroidi!"
         talk_description: "FilamentPHP e’ un framework per la creazione di pannelli di amministrazione e altre applicazioni web, estremamente potente, versatile e personalizzabile.
 Al contrario di altre soluzioni Laravel, FilamentPHP sfrutta il TALL stack, preferendo la coppia AlpineJS-Livewire ad un piu’ pesante VueJs.
@@ -283,20 +284,19 @@ In questo talk, vedremo come FilamentPHP puo’ essere utilizzato per creare pan
         talk_video_url:
         speakers:
           speaker_1: *davide_cariola
-      talk_roberto_butti:
+      talk_valerio_barbera:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T17:20+02:00
-        end_datetime: 2023-11-09T18:00+02:00
-        talk_title: "Vivere serenamente con Laravel"
-        talk_description: "Oggi, l'ecosistema Laravel è caratterizzato da un'enorme quantità di strumenti, servizi e documentazione di ottima qualità.
-      Ogni singolo elemento dell'ecosistema è progettato per offrire agli sviluppatori finali un livello sempre più elevato di Developer eXperience e una maggiore produttività.
-      Questo al fine di consentire a noi sviluppatori di costruire software, applicazioni e librerie in modo rapido e affidabile. Ma tutto questo può avere benefici anche sulla serenità dello sviluppatore e del team?
+        start_datetime: 2023-11-09T17:20
+        end_datetime: 2023-11-09T18:00
+        talk_title: "Monitorare i software fa schifo"
+        talk_description: "Monitorare i software fa davvero schifo.
+      E’ questo che pensa la maggior parte degli sviluppatori riguardo al monitoraggio.
+      È visto come l’ennesimo task da inserire nella già infinita lista di cose da fare e che probabilmente non faremo perché non ci sarà tempo.
+      A volte i tempi di sviluppo sono super stretti, il budget è poco, il software è stato sviluppato da altri ed è un casino metterci le mani… e al tempo stesso i clienti si lamentano e mettono continuamente sotto pressione.
+      Dover spendere tempo e soldi per apprendere nuove strategie o usare nuovi tool, alla fine non è altro che un'ulteriore carico di lavoro che andrà a peggiorare una situazione già tesa.
 
-      In questo talk verranno analizzati e considerati gli strumenti e le metodologie provenienti dall'ecosistema Laravel che permettono agli sviluppatori di acquisire un certo grado di fiducia,  e predicibilità in ciò che viene rilasciato. Utilizzando strumenti dell'ecosistema Laravel, affronteremo temi come \"il deploy del venerdì\", l'approccio alle scelte progettuali che solitamente generano opinioni contrastanti, la coerenza del codice e l'introduzione dei test automatici senza costi iniziali aggiuntivi.
-
-      Sono temi diversi ma verranno tutti affrontati con il concetto di serenità come obiettivo. Affrontati con l’idea che la Developer eXperience non riguarda solo il momento in cui interagisce con gli strumenti di sviluppo, ma anche come questa esperienza influenza l'equilibrio tra \"lavoro\" e \"vita\".
-      "
+      Attraverso la mia esperienza sul campo ho individuato alcuni semplici accorgimenti nelle abitudini di monitoraggio per consentire ai team di sviluppo di eliminare rapidamente la maggior parte dei momenti di frustrazione, ridurre tempi e costi dei cicli di sviluppo e mettere al sicuro le relazioni con i clienti e partner migliori."
         talk_video_url:
         speakers:
-          speaker_1: *roberto_butti
+          speaker_1: *valerio_barbera
