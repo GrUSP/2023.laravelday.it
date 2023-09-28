@@ -180,10 +180,10 @@ days:
         start_datetime: 2023-11-09T09:45
         end_datetime: 2023-11-09T10:25
         talk_title: "Come Redis ha rotto il nostro applicativo."
-        talk_description: "Le astrazioni sono fondamentali per semplificare lo sviluppo di applicazioni complesse, fornendo un'interfaccia uniforme per interagire con svariati componenti del sistema.
-
-Tuttavia, l'uso di astrazioni può anche portare a conseguenze impreviste. Nel corso di uno sviluppo come tanti altri, ci siamo imbattuti in una situazione in cui Redis ha involontariamente rotto la nostra applicazione, ricordandoci ancora una volta che affidarsi troppo alle astrazioni può rivelarsi fatale.
-
+        talk_description: "Le astrazioni sono fondamentali per semplificare lo sviluppo di applicazioni complesse, fornendo un'interfaccia uniforme per interagire con svariati componenti del sistema.<br/>
+<br/>
+Tuttavia, l'uso di astrazioni può anche portare a conseguenze impreviste. Nel corso di uno sviluppo come tanti altri, ci siamo imbattuti in una situazione in cui Redis ha involontariamente rotto la nostra applicazione, ricordandoci ancora una volta che affidarsi troppo alle astrazioni può rivelarsi fatale.<br/>
+<br/>
 Con questa case history vorrei portare un'esperienza diretta di come i framework siano strumenti potenti in mani consapevoli, ma che spesso il diavolo si celi nei dettagli."
         talk_video_url:
         speakers:
@@ -194,7 +194,11 @@ Con questa case history vorrei portare un'esperienza diretta di come i framework
         start_datetime: 2023-11-09T10:25
         end_datetime: 2023-11-09T11:05
         talk_title: "Backup di prod in staging? Why not"
-        talk_description: "Tenere allineati gli ambienti di staging è prerogativa di tutti gli sviluppatori, un ambiente staging con dati anonimizzati di produzione porta svariati vantaggi: dal poter testare nuove funzionalità con dati molto più realistici, alla replica dei bug fino agli stress test. Il tutto seguendo nella maniera più accurata possibile il regolamento europeo (GDPR). Quando si parla di codice il gioco è facile grazie all'utilizzo di version control ma quando si parla di dati? E se questi dati fossero distribuiti su più microservizi? In Jobtech abbiamo sviluppato un servizio in Laravel 9.x che ci consente di avere una replica consistente e anonimizzata di produzione all'interno dei vari database di staging, semplicemente lanciando una pipeline di deploy direttamente da Bitbucket."
+        talk_description: "Tenere allineati gli ambienti di staging è prerogativa di tutti gli sviluppatori, un ambiente staging con dati anonimizzati di produzione porta svariati vantaggi: dal poter testare nuove funzionalità con dati molto più realistici, alla replica dei bug fino agli stress test.<br/>
+        Il tutto seguendo nella maniera più accurata possibile il regolamento europeo (GDPR).<br/>
+        Quando si parla di codice il gioco è facile grazie all'utilizzo di version control ma quando si parla di dati?<br/>
+        E se questi dati fossero distribuiti su più microservizi?<br/>
+        In Jobtech abbiamo sviluppato un servizio in Laravel 9.x che ci consente di avere una replica consistente e anonimizzata di produzione all'interno dei vari database di staging, semplicemente lanciando una pipeline di deploy direttamente da Bitbucket."
         talk_video_url:
         speakers:
           speaker_1: *mario_carotti
@@ -204,11 +208,11 @@ Con questa case history vorrei portare un'esperienza diretta di come i framework
         start_datetime: 2023-11-09T11:30
         end_datetime: 2023-11-09T12:05
         talk_title: "🤖 ChatGPT con Laravel & beyond"
-        talk_description: "Ormai di ChatGPT, il celebre servizio LLM di OpenAI, se ne sente parlare dappertutto.
-Farò una breve spiegazione di cos'è, descriverò le best practices per il suo utilizzo e l'integrazione con Laravel.
-Descriverò come utilizzare le API sia per la completition che per la chat, lo stream mode e le potenzialità della nuova Function calling.
-Cos'è l'embedding, a cosa serve? Come utilizzarlo per interrogare una base di dati ed ottenere una risposta sensata e con le fonti da chatGPT.
-Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto costruendo negli ultimi mesi."
+        talk_description: "Ormai di ChatGPT, il celebre servizio LLM di OpenAI, se ne sente parlare dappertutto.<br/>
+Farò una breve spiegazione di cos'è, descriverò le best practices per il suo utilizzo e l'integrazione con Laravel.<br/>
+Descriverò come utilizzare le API sia per la completition che per la chat, lo stream mode e le potenzialità della nuova Function calling.<br/>
+Cos'è l'embedding, a cosa serve? Come utilizzarlo per interrogare una base di dati ed ottenere una risposta sensata e con le fonti da chatGPT.<br/>
+Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto costruendo negli ultimi mesi.<br/>"
         talk_video_url:
         speakers:
           speaker_1: *alberto_peripolli
@@ -218,13 +222,13 @@ Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto cos
         start_datetime: 2023-11-09T12:05
         end_datetime: 2023-11-09T12:40
         talk_title: "Vivere serenamente con Laravel"
-        talk_description: "Oggi, l'ecosistema Laravel è caratterizzato da un'enorme quantità di strumenti, servizi e documentazione di ottima qualità.
-      Ogni singolo elemento dell'ecosistema è progettato per offrire agli sviluppatori finali un livello sempre più elevato di Developer eXperience e una maggiore produttività.
-      Questo al fine di consentire a noi sviluppatori di costruire software, applicazioni e librerie in modo rapido e affidabile. Ma tutto questo può avere benefici anche sulla serenità dello sviluppatore e del team?
-
-      In questo talk verranno analizzati e considerati gli strumenti e le metodologie provenienti dall'ecosistema Laravel che permettono agli sviluppatori di acquisire un certo grado di fiducia,  e predicibilità in ciò che viene rilasciato. Utilizzando strumenti dell'ecosistema Laravel, affronteremo temi come \"il deploy del venerdì\", l'approccio alle scelte progettuali che solitamente generano opinioni contrastanti, la coerenza del codice e l'introduzione dei test automatici senza costi iniziali aggiuntivi.
-
-      Sono temi diversi ma verranno tutti affrontati con il concetto di serenità come obiettivo. Affrontati con l’idea che la Developer eXperience non riguarda solo il momento in cui interagisce con gli strumenti di sviluppo, ma anche come questa esperienza influenza l'equilibrio tra \"lavoro\" e \"vita\".
+        talk_description: "Oggi, l'ecosistema Laravel è caratterizzato da un'enorme quantità di strumenti, servizi e documentazione di ottima qualità.<br/>
+      Ogni singolo elemento dell'ecosistema è progettato per offrire agli sviluppatori finali un livello sempre più elevato di Developer eXperience e una maggiore produttività.<br/>
+      Questo al fine di consentire a noi sviluppatori di costruire software, applicazioni e librerie in modo rapido e affidabile. Ma tutto questo può avere benefici anche sulla serenità dello sviluppatore e del team?<br/>
+<br/>
+      In questo talk verranno analizzati e considerati gli strumenti e le metodologie provenienti dall'ecosistema Laravel che permettono agli sviluppatori di acquisire un certo grado di fiducia,  e predicibilità in ciò che viene rilasciato. Utilizzando strumenti dell'ecosistema Laravel, affronteremo temi come \"il deploy del venerdì\", l'approccio alle scelte progettuali che solitamente generano opinioni contrastanti, la coerenza del codice e l'introduzione dei test automatici senza costi iniziali aggiuntivi.<br/>
+<br/>
+      Sono temi diversi ma verranno tutti affrontati con il concetto di serenità come obiettivo. Affrontati con l’idea che la Developer eXperience non riguarda solo il momento in cui interagisce con gli strumenti di sviluppo, ma anche come questa esperienza influenza l'equilibrio tra \"lavoro\" e \"vita\".<br/>
       "
         talk_video_url:
         speakers:
@@ -235,9 +239,9 @@ Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto cos
         start_datetime: 2023-11-09T12:40
         end_datetime: 2023-11-09T13:15
         talk_title: "Livewire vs InertiaJS: quale scegliere?"
-        talk_description: "Laravel nasce con l'ottica di essere utilizzato per la metodologia RPD (Rapid Product Development) e grazie ai suoi tantissimi pacchetti e librerie questo è molto più facile.
-Oggigiorno non è importante solo la velocità di sviluppo, ma anche la user interface e la user experience. Riguardo a quest'ultimo punto, framework front-end come React, Vue e Angular, ci hanno abituato ad avere semplice interattività con le applicazioni web, dandoci un look and feel imparagonabile e nettamente migliore rispetto a quello che era il WEB 1.0.
-Ora, la domanda che viene naturale farsi è: in che modo Laravel cerca di unire la metodologia RPD con il look and feel dei framework front-end? Ed è qui che entrano in gioco le tecnologie di cui parleremo oggi: Livewire e InertiaJS.
+        talk_description: "Laravel nasce con l'ottica di essere utilizzato per la metodologia RPD (Rapid Product Development) e grazie ai suoi tantissimi pacchetti e librerie questo è molto più facile.<br/>
+Oggigiorno non è importante solo la velocità di sviluppo, ma anche la user interface e la user experience. Riguardo a quest'ultimo punto, framework front-end come React, Vue e Angular, ci hanno abituato ad avere semplice interattività con le applicazioni web, dandoci un look and feel imparagonabile e nettamente migliore rispetto a quello che era il WEB 1.0.<br/>
+Ora, la domanda che viene naturale farsi è: in che modo Laravel cerca di unire la metodologia RPD con il look and feel dei framework front-end? Ed è qui che entrano in gioco le tecnologie di cui parleremo oggi: Livewire e InertiaJS.<br/>
 Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si avvicina di più alla filosofia RPD di Laravel? Quale è più semplice nella manutenzione e nell'aggiornamento? Quale è più veloce?"
         talk_video_url:
         speakers:
@@ -258,12 +262,12 @@ Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si av
         start_datetime: 2023-11-09T15:35
         end_datetime: 2023-11-09T16:15
         talk_title: "Event Sourcing con Laravel"
-        talk_description: "Event Sourcing e CQRS: Tutti ne parlano ma nessuno li applica: troppo difficile dicono, per qualcuno è come schiacciare una mosca con un cannone. 
-
-E se così non fosse?
-
-Vi mostrerò come, grazie alla libreria di Spatie “laravel-event-sourcing” tirare su un progetto in “salsa eventosa” è tutt’altro che complicato e, grazie a questa metodologia, otterremo degli interessanti benefici.
-
+        talk_description: "Event Sourcing e CQRS: Tutti ne parlano ma nessuno li applica: troppo difficile dicono, per qualcuno è come schiacciare una mosca con un cannone. <br/>
+<br/>
+E se così non fosse?<br/>
+<br/>
+Vi mostrerò come, grazie alla libreria di Spatie “laravel-event-sourcing” tirare su un progetto in “salsa eventosa” è tutt’altro che complicato e, grazie a questa metodologia, otterremo degli interessanti benefici.<br/>
+<br/>
 Il talk sarà diviso in due parti: nella prima vi fornirò una piccola infarinatura teorica sulla metodologia e sui concetti che libreria utilizza mentre nella seconda parte vedremo come applicare questi concetti nel concreto, attraverso la libreria.
 "
         talk_video_url:
@@ -275,11 +279,11 @@ Il talk sarà diviso in due parti: nella prima vi fornirò una piccola infarinat
         start_datetime: 2023-11-09T16:40
         end_datetime: 2023-11-09T17:20
         talk_title: "FilamentPHP: il tuo admin panel sotto steroidi!"
-        talk_description: "FilamentPHP e’ un framework per la creazione di pannelli di amministrazione e altre applicazioni web, estremamente potente, versatile e personalizzabile.
-Al contrario di altre soluzioni Laravel, FilamentPHP sfrutta il TALL stack, preferendo la coppia AlpineJS-Livewire ad un piu’ pesante VueJs.
-
-La particolarita’ di FilamentPHP e’ che il suo utilizzo e’ completamente modulare, lasciando totale liberta’ allo sviluppatore su cosa integrare o meno: puoi creare un classico pannello amministrativo o una customer-facing app; delle tabelle interattive o dei form totalmente basati su Livewire; le azioni possono essere gestite tramite modali o slide-overs per garantire il workflow dell’utente; puoi avere sezioni read-only in un layout completamente flessibile; tutto questo, senza dimenticare statistiche e grafici in tempo reale.
-
+        talk_description: "FilamentPHP e’ un framework per la creazione di pannelli di amministrazione e altre applicazioni web, estremamente potente, versatile e personalizzabile.<br/>
+Al contrario di altre soluzioni Laravel, FilamentPHP sfrutta il TALL stack, preferendo la coppia AlpineJS-Livewire ad un piu’ pesante VueJs.<br/>
+<br/>
+La particolarita’ di FilamentPHP e’ che il suo utilizzo e’ completamente modulare, lasciando totale liberta’ allo sviluppatore su cosa integrare o meno: puoi creare un classico pannello amministrativo o una customer-facing app; delle tabelle interattive o dei form totalmente basati su Livewire; le azioni possono essere gestite tramite modali o slide-overs per garantire il workflow dell’utente; puoi avere sezioni read-only in un layout completamente flessibile; tutto questo, senza dimenticare statistiche e grafici in tempo reale.<br/>
+<br/>
 In questo talk, vedremo come FilamentPHP puo’ essere utilizzato per creare pannelli di amministrazione di livello enterprise, con un focus particolare sulla gestione utenti e su un’integrazione piu’ specifica di Livewire, che consente al pannello amministrativo di essere incredibilmente personalizzabile da parte dello sviluppatore."
         talk_video_url:
         speakers:
@@ -290,12 +294,12 @@ In questo talk, vedremo come FilamentPHP puo’ essere utilizzato per creare pan
         start_datetime: 2023-11-09T17:20
         end_datetime: 2023-11-09T18:00
         talk_title: "Monitorare i software fa schifo"
-        talk_description: "Monitorare i software fa davvero schifo.
-      E’ questo che pensa la maggior parte degli sviluppatori riguardo al monitoraggio.
-      È visto come l’ennesimo task da inserire nella già infinita lista di cose da fare e che probabilmente non faremo perché non ci sarà tempo.
-      A volte i tempi di sviluppo sono super stretti, il budget è poco, il software è stato sviluppato da altri ed è un casino metterci le mani… e al tempo stesso i clienti si lamentano e mettono continuamente sotto pressione.
-      Dover spendere tempo e soldi per apprendere nuove strategie o usare nuovi tool, alla fine non è altro che un'ulteriore carico di lavoro che andrà a peggiorare una situazione già tesa.
-
+        talk_description: "Monitorare i software fa davvero schifo.<br/>
+      E’ questo che pensa la maggior parte degli sviluppatori riguardo al monitoraggio.<br/>
+      È visto come l’ennesimo task da inserire nella già infinita lista di cose da fare e che probabilmente non faremo perché non ci sarà tempo.<br/>
+      A volte i tempi di sviluppo sono super stretti, il budget è poco, il software è stato sviluppato da altri ed è un casino metterci le mani… e al tempo stesso i clienti si lamentano e mettono continuamente sotto pressione.<br/>
+      Dover spendere tempo e soldi per apprendere nuove strategie o usare nuovi tool, alla fine non è altro che un'ulteriore carico di lavoro che andrà a peggiorare una situazione già tesa.<br/>
+<br/>
       Attraverso la mia esperienza sul campo ho individuato alcuni semplici accorgimenti nelle abitudini di monitoraggio per consentire ai team di sviluppo di eliminare rapidamente la maggior parte dei momenti di frustrazione, ridurre tempi e costi dei cicli di sviluppo e mettere al sicuro le relazioni con i clienti e partner migliori."
         talk_video_url:
         speakers:
