@@ -125,41 +125,41 @@ tracks:
 
 days:
   day_1:
-    date: 2023-11-09T09:00
+    date: 2023-11-09T09:00+02:00
     title: "Day 1"
     talks:
       talk_1:
         item_type: "service"
-        start_datetime: 2023-11-09T09:00
-        end_datetime: 2023-11-09T09:30
+        start_datetime: 2023-11-09T09:00+02:00
+        end_datetime: 2023-11-09T09:30+02:00
         talk_title: "Check-in"
       talk_2:
         item_type: "service"
-        start_datetime: 2023-11-09T11:05
-        end_datetime: 2023-11-09T11:30
+        start_datetime: 2023-11-09T11:05+02:00
+        end_datetime: 2023-11-09T11:30+02:00
         talk_title: "Coffee break"
         service_icon: "cutlery"
       talk_3:
         item_type: "service"
-        start_datetime: 2023-11-09T13:15
-        end_datetime: 2023-11-09T13:45
+        start_datetime: 2023-11-09T13:15+02:00
+        end_datetime: 2023-11-09T13:45+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
       talk_4:
         item_type: "service"
-        start_datetime: 2023-11-09T14:35
-        end_datetime: 2023-11-09T14:55
+        start_datetime: 2023-11-09T14:35+02:00
+        end_datetime: 2023-11-09T14:55+02:00
         talk_title: "Lightning"
       talk_5:
         item_type: "service"
-        start_datetime: 2023-11-09T16:15
-        end_datetime: 2023-11-09T16:40
+        start_datetime: 2023-11-09T16:15+02:00
+        end_datetime: 2023-11-09T16:40+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       happy-hour:
         item_type: "service"
-        start_datetime: 2023-11-09T18:00
-        end_datetime: 2023-11-09T18:10
+        start_datetime: 2023-11-09T18:00+02:00
+        end_datetime: 2023-11-09T18:10+02:00
         talk_title: "Chiusura"
         service_icon: "glass"
 
@@ -167,8 +167,8 @@ days:
       #keynote:
       #  item_type: "keynote"
       #  track: *track_1
-      #  start_datetime: 2023-11-09T09:30
-      #  end_datetime: 2023-11-09T10:25
+      #  start_datetime: 2023-11-09T09:30+02:00
+      #  end_datetime: 2023-11-09T10:25+02:00
       #  talk_title: ""
       #  talk_description: ""
       #  talk_video_url:
@@ -177,8 +177,8 @@ days:
       talk_michael_di_prisco:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T09:45
-        end_datetime: 2023-11-09T10:25
+        start_datetime: 2023-11-09T09:45+02:00
+        end_datetime: 2023-11-09T10:25+02:00
         talk_title: "Come Redis ha rotto il nostro applicativo."
         talk_description: "Le astrazioni sono fondamentali per semplificare lo sviluppo di applicazioni complesse, fornendo un'interfaccia uniforme per interagire con svariati componenti del sistema.<br/>
 <br/>
@@ -191,8 +191,8 @@ Con questa case history vorrei portare un'esperienza diretta di come i framework
       talk_mario_carotti:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T10:25
-        end_datetime: 2023-11-09T11:05
+        start_datetime: 2023-11-09T10:25+02:00
+        end_datetime: 2023-11-09T11:05+02:00
         talk_title: "Backup di prod in staging? Why not"
         talk_description: "Tenere allineati gli ambienti di staging è prerogativa di tutti gli sviluppatori, un ambiente staging con dati anonimizzati di produzione porta svariati vantaggi: dal poter testare nuove funzionalità con dati molto più realistici, alla replica dei bug fino agli stress test.<br/>
         Il tutto seguendo nella maniera più accurata possibile il regolamento europeo (GDPR).<br/>
@@ -205,8 +205,8 @@ Con questa case history vorrei portare un'esperienza diretta di come i framework
       talk_alberto_peripolli:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T11:30
-        end_datetime: 2023-11-09T12:05
+        start_datetime: 2023-11-09T11:30+02:00
+        end_datetime: 2023-11-09T12:05+02:00
         talk_title: "🤖 ChatGPT con Laravel & beyond"
         talk_description: "Ormai di ChatGPT, il celebre servizio LLM di OpenAI, se ne sente parlare dappertutto.<br/>
 Farò una breve spiegazione di cos'è, descriverò le best practices per il suo utilizzo e l'integrazione con Laravel.<br/>
@@ -219,8 +219,8 @@ Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto cos
       talk_roberto_butti:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T12:05
-        end_datetime: 2023-11-09T12:40
+        start_datetime: 2023-11-09T12:05+02:00
+        end_datetime: 2023-11-09T12:40+02:00
         talk_title: "Vivere serenamente con Laravel"
         talk_description: "Oggi, l'ecosistema Laravel è caratterizzato da un'enorme quantità di strumenti, servizi e documentazione di ottima qualità.<br/>
       Ogni singolo elemento dell'ecosistema è progettato per offrire agli sviluppatori finali un livello sempre più elevato di Developer eXperience e una maggiore produttività.<br/>
@@ -236,8 +236,8 @@ Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto cos
       talk_jenno_ramcaj:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T12:40
-        end_datetime: 2023-11-09T13:15
+        start_datetime: 2023-11-09T12:40+02:00
+        end_datetime: 2023-11-09T13:15+02:00
         talk_title: "Livewire vs InertiaJS: quale scegliere?"
         talk_description: "Laravel nasce con l'ottica di essere utilizzato per la metodologia RPD (Rapid Product Development) e grazie ai suoi tantissimi pacchetti e librerie questo è molto più facile.<br/>
 Oggigiorno non è importante solo la velocità di sviluppo, ma anche la user interface e la user experience. Riguardo a quest'ultimo punto, framework front-end come React, Vue e Angular, ci hanno abituato ad avere semplice interattività con le applicazioni web, dandoci un look and feel imparagonabile e nettamente migliore rispetto a quello che era il WEB 1.0.<br/>
@@ -249,8 +249,8 @@ Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si av
       talk_gabriele_cavigiolo:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T14:55
-        end_datetime: 2023-11-09T15:35
+        start_datetime: 2023-11-09T14:55+02:00
+        end_datetime: 2023-11-09T15:35+02:00
         talk_title: "Laravel containerizzato per AWS Fargate"
         talk_description: "AWS ECS in tandem con Fargate offre nuove opportunità di deploy di applicazioni conteinerizzate: il nostro framework preferito riuscirà a cavarsela nel regno di Node, Go e Rust? La risposta è: indubbiamente SI! Laravel rocks!!"
         talk_video_url:
@@ -259,8 +259,8 @@ Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si av
       talk_christian_nastasi:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T15:35
-        end_datetime: 2023-11-09T16:15
+        start_datetime: 2023-11-09T15:35+02:00
+        end_datetime: 2023-11-09T16:15+02:00
         talk_title: "Event Sourcing con Laravel"
         talk_description: "Event Sourcing e CQRS: Tutti ne parlano ma nessuno li applica: troppo difficile dicono, per qualcuno è come schiacciare una mosca con un cannone. <br/>
 <br/>
@@ -276,8 +276,8 @@ Il talk sarà diviso in due parti: nella prima vi fornirò una piccola infarinat
       talk_davide_cariola:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T16:40
-        end_datetime: 2023-11-09T17:20
+        start_datetime: 2023-11-09T16:40+02:00
+        end_datetime: 2023-11-09T17:20+02:00
         talk_title: "FilamentPHP: il tuo admin panel sotto steroidi!"
         talk_description: "FilamentPHP e’ un framework per la creazione di pannelli di amministrazione e altre applicazioni web, estremamente potente, versatile e personalizzabile.<br/>
 Al contrario di altre soluzioni Laravel, FilamentPHP sfrutta il TALL stack, preferendo la coppia AlpineJS-Livewire ad un piu’ pesante VueJs.<br/>
@@ -291,8 +291,8 @@ In questo talk, vedremo come FilamentPHP puo’ essere utilizzato per creare pan
       talk_valerio_barbera:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T17:20
-        end_datetime: 2023-11-09T18:00
+        start_datetime: 2023-11-09T17:20+02:00
+        end_datetime: 2023-11-09T18:00+02:00
         talk_title: "Monitorare i software fa schifo"
         talk_description: "Monitorare i software fa davvero schifo.<br/>
       E’ questo che pensa la maggior parte degli sviluppatori riguardo al monitoraggio.<br/>
