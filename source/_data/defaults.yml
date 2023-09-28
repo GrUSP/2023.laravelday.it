@@ -26,7 +26,7 @@ conference:
   title_pre: ""
   title: "laravelday 2023"
   city: "Verona, hotel San Marco"
-  date: 2023-11-09T10:00+01:00
+  date: 2023-11-09T09:30+01:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true

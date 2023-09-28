@@ -125,7 +125,7 @@ tracks:
 
 days:
   day_1:
-    date: 2023-11-09T09:00
+    date: 2023-11-09T09:00+01:00
     title: "Day 1"
     talks:
       checkin:
