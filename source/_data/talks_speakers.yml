@@ -125,32 +125,37 @@ tracks:
 
 days:
   day_1:
-    date: 2023-11-09T09:00+02:00
+    date: 2023-11-09T09:00
     title: "Day 1"
     talks:
       talk_1:
         item_type: "service"
-        start_datetime: 2023-11-09T09:00+02:00
-        end_datetime: 2023-11-09T09:30+02:00
+        start_datetime: 2023-11-09T09:00
+        end_datetime: 2023-11-09T09:30
         talk_title: "Check-in"
       talk_2:
+        item_type: "service"
+        start_datetime: 2023-11-09T09:30+02:00
+        end_datetime: 2023-11-09T09:45+02:00
+        talk_title: "Intro evento"
+      talk_3:
         item_type: "service"
         start_datetime: 2023-11-09T11:05+02:00
         end_datetime: 2023-11-09T11:30+02:00
         talk_title: "Coffee break"
         service_icon: "cutlery"
-      talk_3:
+      talk_4:
         item_type: "service"
         start_datetime: 2023-11-09T13:15+02:00
-        end_datetime: 2023-11-09T13:45+02:00
+        end_datetime: 2023-11-09T14:35+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      talk_4:
+      talk_5:
         item_type: "service"
         start_datetime: 2023-11-09T14:35+02:00
         end_datetime: 2023-11-09T14:55+02:00
         talk_title: "Lightning"
-      talk_5:
+      talk_6:
         item_type: "service"
         start_datetime: 2023-11-09T16:15+02:00
         end_datetime: 2023-11-09T16:40+02:00
