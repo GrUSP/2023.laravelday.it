@@ -103,11 +103,12 @@ speaker_9: &valerio_barbera
 speakers:
   speaker_1: *michael_di_prisco
   speaker_2: *roberto_butti
-  speaker_4: *christian_nastasi
-  speaker_5: *davide_cariola
-  speaker_6: *gabriele_cavigiolo
-  speaker_7: *alberto_peripolli
-  speaker_8: *mario_carotti
+  speaker_3: *christian_nastasi
+  speaker_4: *davide_cariola
+  speaker_5: *gabriele_cavigiolo
+  speaker_6: *alberto_peripolli
+  speaker_7: *mario_carotti
+  speaker_8: *jenno_ramcaj
   speaker_9: *valerio_barbera
 
 tracks:
