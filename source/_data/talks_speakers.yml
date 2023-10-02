@@ -138,36 +138,35 @@ days:
         item_type: "service"
         start_datetime: 2023-11-09T09:30+01:00
         end_datetime: 2023-11-09T09:45+01:00
-        talk_title: "Intro evento"
+        talk_title: Welcome by GrUSP
       coffee-morning:
         item_type: "service"
         start_datetime: 2023-11-09T11:05+01:00
         end_datetime: 2023-11-09T11:30+01:00
-        talk_title: "Coffee break"
+        talk_title: "Pausa caffè"
         service_icon: "cutlery"
       lunch:
         item_type: "service"
         start_datetime: 2023-11-09T13:15+01:00
-        end_datetime: 2023-11-09T14:35+01:00
-        talk_title: "Lunch break"
+        end_datetime: 2023-11-09T14:30+01:00
+        talk_title: "Pausa pranzo"
         service_icon: "cutlery"
       lightning:
         item_type: "service"
-        start_datetime: 2023-11-09T14:35+01:00
-        end_datetime: 2023-11-09T14:55+01:00
-        talk_title: "Lightning"
+        start_datetime: 2023-11-09T14:30+01:00
+        end_datetime: 2023-11-09T14:50+01:00
+        talk_title: "Lightning talk"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2023-11-09T16:15+01:00
-        end_datetime: 2023-11-09T16:40+01:00
-        talk_title: "Coffee break"
+        start_datetime: 2023-11-09T16:10+01:00
+        end_datetime: 2023-11-09T16:35+01:00
+        talk_title: "Pausa caffè"
         service_icon: "coffee"
       closing:
         item_type: "service"
-        start_datetime: 2023-11-09T18:00+01:00
-        end_datetime: 2023-11-09T18:10+01:00
+        start_datetime: 2023-11-09T17:55+01:00
+        end_datetime: 2023-11-09T18:05+01:00
         talk_title: "Chiusura"
-        service_icon: "glass"
 
       # talk
       #keynote:
@@ -252,21 +251,23 @@ Sono entrambe molto valide, ma quale è meglio scegliere tra le due? Quale si av
         talk_video_url:
         speakers:
           speaker_1: *jenno_ramcaj
+
       talk_gabriele_cavigiolo:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T14:55+01:00
-        end_datetime: 2023-11-09T15:35+01:00
+        start_datetime: 2023-11-09T14:50+01:00
+        end_datetime: 2023-11-09T15:30+01:00
         talk_title: "Laravel containerizzato per AWS Fargate"
         talk_description: "AWS ECS in tandem con Fargate offre nuove opportunità di deploy di applicazioni conteinerizzate: il nostro framework preferito riuscirà a cavarsela nel regno di Node, Go e Rust? La risposta è: indubbiamente SI! Laravel rocks!!"
         talk_video_url:
         speakers:
           speaker_1: *gabriele_cavigiolo
+
       talk_christian_nastasi:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T15:35+01:00
-        end_datetime: 2023-11-09T16:15+01:00
+        start_datetime: 2023-11-09T15:30+01:00
+        end_datetime: 2023-11-09T16:10+01:00
         talk_title: "Event Sourcing con Laravel"
         talk_description: "Event Sourcing e CQRS: Tutti ne parlano ma nessuno li applica: troppo difficile dicono, per qualcuno è come schiacciare una mosca con un cannone. <br/>
 <br/>
@@ -279,11 +280,12 @@ Il talk sarà diviso in due parti: nella prima vi fornirò una piccola infarinat
         talk_video_url:
         speakers:
           speaker_1: *christian_nastasi
+
       talk_davide_cariola:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T16:40+01:00
-        end_datetime: 2023-11-09T17:20+01:00
+        start_datetime: 2023-11-09T16:35+01:00
+        end_datetime: 2023-11-09T17:15+01:00
         talk_title: "FilamentPHP: il tuo admin panel sotto steroidi!"
         talk_description: "FilamentPHP e’ un framework per la creazione di pannelli di amministrazione e altre applicazioni web, estremamente potente, versatile e personalizzabile.<br/>
 Al contrario di altre soluzioni Laravel, FilamentPHP sfrutta il TALL stack, preferendo la coppia AlpineJS-Livewire ad un piu’ pesante VueJs.<br/>
@@ -294,11 +296,12 @@ In questo talk, vedremo come FilamentPHP puo’ essere utilizzato per creare pan
         talk_video_url:
         speakers:
           speaker_1: *davide_cariola
+
       talk_valerio_barbera:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-09T17:20+01:00
-        end_datetime: 2023-11-09T18:00+01:00
+        start_datetime: 2023-11-09T17:15+01:00
+        end_datetime: 2023-11-09T17:55+01:00
         talk_title: "Monitorare i software fa schifo"
         talk_description: "Monitorare i software fa davvero schifo.<br/>
       E’ questo che pensa la maggior parte degli sviluppatori riguardo al monitoraggio.<br/>
