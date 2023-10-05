@@ -67,7 +67,7 @@ conference:
   geninfo_description: "<p>Il <strong>laravel</strong>day è la prima conferenza tutta italiana, nata dalla community per la community, che porta case study reali e best practice raccontati da persone appassionate e professioniste che usano Laravel.</p>
   <p><strong>Giovedì 9 Novembre sarà un'intera giornata dedicata al framework PHP</strong> e al suo ecosistema di package e servizi utilizzati da migliaia di developer in tutto il mondo. Che tu abbia esperienza o sia neofita di Laravel, ti assicuriamo che i nostri talk sapranno incuriosirti!</p>
   <p>Potrai seguire laravelday 2023 sia <strong>online</strong> che <strong>in presenza a Verona</strong>.</p>
-  <p>Il giorno prima della conferenza (Mercoledì 8 Novembre), nella stessa location, potrai seguire uno dei <b>workshop</b> per approfondire le tue competenze. Saranno annunciati a breve e i biglietti saranno venduti separatamente.</p>
+  <p>Il giorno prima della conferenza (Mercoledì 8 Novembre), nella stessa location, potrai seguire uno dei <b><a href='https//2023.laravelday.it/workshop'>workshop</b></a> per approfondire le tue competenze. I biglietti sono venduti separatamente.</p>
   <p>Il giorno dopo la conferenza (Venerdì 10 Novembre), nella stessa location, ci sarà <a href='https://vueday.it'>vueday</a>, la conferenza GrUSP dedicata a <b>Vue.js.</b> Con il biglietto per laravelday puoi avere uno <b>sconto sul biglietto per vueday!</b></p>
   <p>Scopri tutti i dettagli dell'evento!</p>"
   geninfo_about_label: "About"
@@ -118,7 +118,7 @@ conference:
     - "CI / CD"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
