@@ -26,7 +26,7 @@ conference:
   title_pre: ""
   title: "laravelday 2023"
   city: "Verona, hotel San Marco"
-  date: 2023-11-09T10:00+01:00
+  date: 2023-11-09T09:30+01:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -42,10 +42,17 @@ conference:
   update_visible: true
   update_is_warning: false
   update_warning_header: ""
-  update_title: "laravelday merchandising shop"
-  update_description: "Supporta il GrUSP e la conferenza portandoti a casa alcuni gadget"
-  update_link_url: "https://grusp.myspreadshop.it/laravelday?idea=62fe529a5d31a90804e6b70b"
-  update_link_label: "Scopri i nostri prodotti"
+  update_title: "Pre-party!"
+  update_description: "Un evento online per presentare la conferenza. Appuntamento su YouTube Mercoledì 11 Ottobre alle 21"
+  update_link_url: "https://www.youtube.com/c/grusp"
+  update_link_label: "Attiva il reminder!"
+  # update_visible: true
+  # update_is_warning: false
+  # update_warning_header: ""
+  # update_title: "laravelday merchandising shop"
+  # update_description: "Supporta il GrUSP e la conferenza portandoti a casa alcuni gadget"
+  # update_link_url: "https://grusp.myspreadshop.it/laravelday?idea=62fe529a5d31a90804e6b70b"
+  # update_link_label: "Scopri i nostri prodotti"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: false
   cfp_readmore_label: "Proponi il tuo talk"

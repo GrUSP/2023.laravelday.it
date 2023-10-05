@@ -33,6 +33,10 @@ silver:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
   sponsor3:
+    name: "Inspector"
+    logo_filename: "inspector.svg"
+    site_url: "https://inspector.dev"
+  sponsor4:
     name: "Offdigit"
     logo_filename: "offdigit.svg"
     site_url: "https://offdigit.com/"
