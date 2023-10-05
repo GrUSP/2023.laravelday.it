@@ -100,7 +100,25 @@ speaker_9: &valerio_barbera
   speaker_twitter_url: "https://twitter.com/Barbalerio"
   is_mc: false
 
+speaker_10: &alessandro
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandro Cappellozza
+  speaker_pic_filename: alessandro.jpg
+  speaker_role: "MASTER OF CEREMONIES - Principal Software Engineer @ Inventronics"
+  speaker_bio: ""
+  is_mc: true
+
+speaker_11: &ilgala
+  speaker_in_speaker_lists: true
+  speaker_name: Filippo Galante
+  speaker_pic_filename: ilgala.png
+  speaker_role: "MASTER OF CEREMONIES - Tech Lead @ Jobtech"
+  speaker_bio: ""
+  is_mc: true
+
 speakers:
+  speaker_10: *alessandro
+  speaker_11: *ilgala
   speaker_1: *michael_di_prisco
   speaker_2: *roberto_butti
   speaker_4: *christian_nastasi
