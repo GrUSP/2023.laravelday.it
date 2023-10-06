@@ -44,7 +44,7 @@ conference:
   update_warning_header: ""
   update_title: "Pre-party!"
   update_description: "Un evento online per presentare la conferenza. Appuntamento su YouTube Mercoledì 11 Ottobre alle 21"
-  update_link_url: "https://www.youtube.com/c/grusp"
+  update_link_url: "https://youtube.com/live/3pwSDFSRUtc"
   update_link_label: "Attiva il reminder!"
   # update_visible: true
   # update_is_warning: false
