@@ -233,7 +233,7 @@ Con questa case history vorrei portare un'esperienza diretta di come i framework
         talk_title: "🤖 ChatGPT con Laravel & beyond"
         talk_description: "Ormai di ChatGPT, il celebre servizio LLM di OpenAI, se ne sente parlare dappertutto.<br/>
 Farò una breve spiegazione di cos'è, descriverò le best practices per il suo utilizzo e l'integrazione con Laravel.<br/>
-Descriverò come utilizzare le API sia per la completition che per la chat, lo stream mode e le potenzialità della nuova Function calling.<br/>
+Descriverò come utilizzare le API sia per la completion che per la chat, lo stream mode e le potenzialità della nuova Function calling.<br/>
 Cos'è l'embedding, a cosa serve? Come utilizzarlo per interrogare una base di dati ed ottenere una risposta sensata e con le fonti da chatGPT.<br/>
 Infine proporrò un case study su https://copyba.se, un piccolo SAAS che sto costruendo negli ultimi mesi.<br/>"
         talk_video_url:
