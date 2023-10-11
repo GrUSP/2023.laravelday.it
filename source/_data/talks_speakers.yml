@@ -24,7 +24,6 @@ speaker_2: &roberto_butti
   speaker_twitter_url: "https://twitter.com/Rmeetsh"
   is_mc: false
 
-
 speaker_3: &christian_nastasi
   speaker_in_speaker_lists: true
   speaker_name: Christian Nastasi
@@ -117,8 +116,7 @@ speaker_11: &ilgala
   is_mc: true
 
 speakers:
-  speaker_10: *alessandro
-  speaker_11: *ilgala
+
   speaker_1: *michael_di_prisco
   speaker_2: *roberto_butti
   speaker_3: *christian_nastasi
@@ -128,6 +126,8 @@ speakers:
   speaker_7: *mario_carotti
   speaker_8: *jenno_ramcaj
   speaker_9: *valerio_barbera
+  speaker_10: *alessandro
+  speaker_11: *ilgala
 
 tracks:
   track_1: &track_1

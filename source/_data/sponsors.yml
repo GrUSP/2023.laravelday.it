@@ -24,6 +24,10 @@ gold:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
+  sponsor0:
+   name: "Aulab"
+   logo_filename: "aulab.svg"
+   site_url: "https://aulab.it/"
   sponsor1:
     name: "axelerant"
     logo_filename: "axelerant.png"
@@ -41,6 +45,10 @@ silver:
     logo_filename: "offdigit.svg"
     site_url: "https://offdigit.com/"
 bronze:
+  sponsor1:
+    name: "facile"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
   sponsor2:
     name: "stickermule"
     logo_filename: "stickermule.svg"
