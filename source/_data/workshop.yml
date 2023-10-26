@@ -5,193 +5,193 @@ summary_page_button_label: "Torna alla pagina workshop"
 workshop_img_credits:
 
 workshops:
-  workshop_TDD:
-    ws_id: workshop_TDD
-    is_external: false
-    page_uri: "workshop/workshop_TDD.html"
-    page_title: "Workshop: TDD con Laravel"
-    workshop_title: "TDD con Laravel"
-    ticket_url: "https://ti.to/grusp/laravelday-2023"
-    ticket_label: "Assicurati un posto"
-    location_title: "Dove"
-    location: "Verona"
-    # online_location: "online"
-    location_name: "Hotel San Marco, Verona"
-    # location_name: "The Internet"
-    #location_contact_phone: "+045569011"
-    #location_contact_email: "sanmarco@sanmarco.vr.it"
-    location_contact_url: "https://www.sanmarco.vr.it/"
-    location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
-    location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
-    location_maps_label: "Get directions"
-    location_additional_info: "L'hotel offre tariffe convenzionate a chi partecipa all'evento."
-    whatandwhen_title: "Come e quando"
-    # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-    whatandwhen_additional_info: "Il corso si svolge in presenza, Mercoledì 8 Novembre 2023 dalle 9:30 alle 17:30."
-    date: 2023-11-8T09:30+01:00
-    end_date: 2023-11-8T17:30+01:00
-    date_text: "Mercoledì 8 Novembre 2023, dalle 9:30 alle 17:30."
-    language_title: "Lingua"
-    language: "Italiano"
-    language_ext: ""
-    language_additional_info: ""
-    collab: ""
-    description: "Aspetti metodologici e strumenti per lo sviluppo basato sui test."
-    description_long: "<b>Aspetti metodologici e strumenti per lo sviluppo basato sui test</b>
-    <br> <br />La pratica del <b>TDD (Test-Driven Development)</b> permette di realizzare applicazioni robuste, manutenibili ed estendibili by default.
-    Il costo apparente di una iniziale maggiore scrittura di codice è in realtà un investimento dal valore inestimabile, che ripaga già nell'immediato in termini di semplicità, flessibilità, chiarezza e minori mal di testa.
-    <br> <br /> <b>Il workshop affronta gli aspetti teorico/metodologici e pratici del TDD per lo sviluppo di applicazioni/package Laravel.</b>
-    <br> <br />A prescindere dallo strumento preferito (PHPUnit o PEST) verranno fornite le competenze teoriche e pratiche di base (ma non solo!) per essere in grado di sviluppare le proprie applicazioni ed i propri package Laravel mediante la disciplina del TDD."
-    # video trailer?
-    trailer: false
-    trailer_url: ""
-    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-    teacher_title: "Docente"
-    teachers:
-      teacher_1:
-        teacher_name: "Roberto Gallea"
-        teacher_bio: "Appassionato di tecnologie digitali applicate a svariati campi, come machine learning, elettronica, computer vision e digital performing arts. Funzionario presso l'Università degli Studi di Palermo."
-        pic_filename: "roberto-gallea.png"
-        teacher_role: "Ph.D. in Computer Science, Sviluppatore Web e Data Scientist"
-        teacher_org: ""
-    topics_title: "Argomenti che verranno trattati"
-    topics:
-      - "Sviluppo di applicazioni in modalità test-first"
-      - "Il ciclo red/green/refactor"
-      - "PHPUnit vs PEST - differenze/vantaggi/svantaggi"
-      - "Feature and unit test"
-      - "Setup dell'ambiente di test"
-      - "Uso delle asserzioni e testing di base"
-      - "Utilizzo di in-memory test database"
-      - "Testing delle regole di validazione"
-      - "Stesso test su dati differenti - Data providers"
-      - "Utilizzo di Fixture e Factory di test"
-      - "Testing dei middleware"
-      - "Testing di eccezioni"
-      - "Interazione con sistemi terzi"
-      - "Test double (fake, mock-up, stubs)"
-      - "Mocking delle componenti di Laravel (Bus, Eventi, Email, HTTP, Notification, Queue, Storage)"
-      - "Testing dell'upload di file"
-      - "Package testing"
-      - "Testing in parallelo"
-      - "Coverage analysis"
-      - "Browser test (cenni)"
-      - "Mutation testing (cenni)"
-    addressees_title: "Cosa ottieni frequentando il workshop"
-    addressees_description: "Al termine del workshop chi partecipa sarà in grado di:
-    <ul>
-    <li>comprendere l'importanza di una test suite a corredo del proprio codice di produzione;</li>
-    <li>padroneggiare ed applicare le tecniche discusse per scrivere test suite stabili e complete;</li>
-    <li>comprendere e valutare i test scritti da altre persone;</li>
-    <li>proseguire in autonomia lo studio di concetti più avanzati.</li>
-    </ul>"
-    requirements_title: "Requisiti di partecipazione"
-    requirements_description: "
-    Il workshop tratterà argomenti di livello intermedio (con alcuni concetti avanzati).
-    <br>Per partecipare sono necessarie le seguenti conoscenze:
-    <ul>
-    <li>Laravel livello base/intermedio;</li>
-    <li>Padronanza di un IDE di sviluppo evoluto (consigliato: PHPStorm);</li>
-    <li>Git livello base.</li>
-    </ul>"
-    useful_info_title: "Informazioni utili"
-    useful_info_description: "Il corso si svolge a Verona all'hotel San Marco, Mercoledì 8 Novembre 2023 dalle 9:30 alle 17:30.
-    <br>L'iscrizione al workshop include il materiale didattico, il pranzo e le pause caffè.
-    <br>Il biglietto per il workshop NON include quello per la conferenza, e viceversa.
+  # workshop_TDD:
+  #   ws_id: workshop_TDD
+  #   is_external: false
+  #   page_uri: "workshop/workshop_TDD.html"
+  #   page_title: "Workshop: TDD con Laravel"
+  #   workshop_title: "TDD con Laravel"
+  #   ticket_url: "https://ti.to/grusp/laravelday-2023"
+  #   ticket_label: "Assicurati un posto"
+  #   location_title: "Dove"
+  #   location: "Verona"
+  #   # online_location: "online"
+  #   location_name: "Hotel San Marco, Verona"
+  #   # location_name: "The Internet"
+  #   #location_contact_phone: "+045569011"
+  #   #location_contact_email: "sanmarco@sanmarco.vr.it"
+  #   location_contact_url: "https://www.sanmarco.vr.it/"
+  #   location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
+  #   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+  #   location_maps_label: "Get directions"
+  #   location_additional_info: "L'hotel offre tariffe convenzionate a chi partecipa all'evento."
+  #   whatandwhen_title: "Come e quando"
+  #   # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
+  #   whatandwhen_additional_info: "Il corso si svolge in presenza, Mercoledì 8 Novembre 2023 dalle 9:30 alle 17:30."
+  #   date: 2023-11-8T09:30+01:00
+  #   end_date: 2023-11-8T17:30+01:00
+  #   date_text: "Mercoledì 8 Novembre 2023, dalle 9:30 alle 17:30."
+  #   language_title: "Lingua"
+  #   language: "Italiano"
+  #   language_ext: ""
+  #   language_additional_info: ""
+  #   collab: ""
+  #   description: "Aspetti metodologici e strumenti per lo sviluppo basato sui test."
+  #   description_long: "<b>Aspetti metodologici e strumenti per lo sviluppo basato sui test</b>
+  #   <br> <br />La pratica del <b>TDD (Test-Driven Development)</b> permette di realizzare applicazioni robuste, manutenibili ed estendibili by default.
+  #   Il costo apparente di una iniziale maggiore scrittura di codice è in realtà un investimento dal valore inestimabile, che ripaga già nell'immediato in termini di semplicità, flessibilità, chiarezza e minori mal di testa.
+  #   <br> <br /> <b>Il workshop affronta gli aspetti teorico/metodologici e pratici del TDD per lo sviluppo di applicazioni/package Laravel.</b>
+  #   <br> <br />A prescindere dallo strumento preferito (PHPUnit o PEST) verranno fornite le competenze teoriche e pratiche di base (ma non solo!) per essere in grado di sviluppare le proprie applicazioni ed i propri package Laravel mediante la disciplina del TDD."
+  #   # video trailer?
+  #   trailer: false
+  #   trailer_url: ""
+  #   # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+  #   teacher_title: "Docente"
+  #   teachers:
+  #     teacher_1:
+  #       teacher_name: "Roberto Gallea"
+  #       teacher_bio: "Appassionato di tecnologie digitali applicate a svariati campi, come machine learning, elettronica, computer vision e digital performing arts. Funzionario presso l'Università degli Studi di Palermo."
+  #       pic_filename: "roberto-gallea.png"
+  #       teacher_role: "Ph.D. in Computer Science, Sviluppatore Web e Data Scientist"
+  #       teacher_org: ""
+  #   topics_title: "Argomenti che verranno trattati"
+  #   topics:
+  #     - "Sviluppo di applicazioni in modalità test-first"
+  #     - "Il ciclo red/green/refactor"
+  #     - "PHPUnit vs PEST - differenze/vantaggi/svantaggi"
+  #     - "Feature and unit test"
+  #     - "Setup dell'ambiente di test"
+  #     - "Uso delle asserzioni e testing di base"
+  #     - "Utilizzo di in-memory test database"
+  #     - "Testing delle regole di validazione"
+  #     - "Stesso test su dati differenti - Data providers"
+  #     - "Utilizzo di Fixture e Factory di test"
+  #     - "Testing dei middleware"
+  #     - "Testing di eccezioni"
+  #     - "Interazione con sistemi terzi"
+  #     - "Test double (fake, mock-up, stubs)"
+  #     - "Mocking delle componenti di Laravel (Bus, Eventi, Email, HTTP, Notification, Queue, Storage)"
+  #     - "Testing dell'upload di file"
+  #     - "Package testing"
+  #     - "Testing in parallelo"
+  #     - "Coverage analysis"
+  #     - "Browser test (cenni)"
+  #     - "Mutation testing (cenni)"
+  #   addressees_title: "Cosa ottieni frequentando il workshop"
+  #   addressees_description: "Al termine del workshop chi partecipa sarà in grado di:
+  #   <ul>
+  #   <li>comprendere l'importanza di una test suite a corredo del proprio codice di produzione;</li>
+  #   <li>padroneggiare ed applicare le tecniche discusse per scrivere test suite stabili e complete;</li>
+  #   <li>comprendere e valutare i test scritti da altre persone;</li>
+  #   <li>proseguire in autonomia lo studio di concetti più avanzati.</li>
+  #   </ul>"
+  #   requirements_title: "Requisiti di partecipazione"
+  #   requirements_description: "
+  #   Il workshop tratterà argomenti di livello intermedio (con alcuni concetti avanzati).
+  #   <br>Per partecipare sono necessarie le seguenti conoscenze:
+  #   <ul>
+  #   <li>Laravel livello base/intermedio;</li>
+  #   <li>Padronanza di un IDE di sviluppo evoluto (consigliato: PHPStorm);</li>
+  #   <li>Git livello base.</li>
+  #   </ul>"
+  #   useful_info_title: "Informazioni utili"
+  #   useful_info_description: "Il corso si svolge a Verona all'hotel San Marco, Mercoledì 8 Novembre 2023 dalle 9:30 alle 17:30.
+  #   <br>L'iscrizione al workshop include il materiale didattico, il pranzo e le pause caffè.
+  #   <br>Il biglietto per il workshop NON include quello per la conferenza, e viceversa.
 
-    <br> <br />Il workshop verrà confermato il 23 Ottobre, al raggiungimento del numero minimo di partecipanti. In caso di annullamento i biglietti saranno rimborsati.
-    <b>Acquista subito il tuo biglietto per assicurarti il prezzo più basso!</b>
-    <br> <br /> Schema di pricing dei biglietti per il workshop:
-    <li>Very Early Bird (159€+iva): disponibili 5 posti, biglietti in vendita fino al 12 Ottobre 2023.
-    <li>Early Bird (199€+iva): disponibili 10 posti, biglietti in vendita fino al 22 Ottobre 2023.
-    <li>Regular (219€+iva): biglietti in vendita fino al 1 Novembre.
-    <li>Late Bird (239€+iva): ultimi posti, in vendita dal 2 Novembre."
-    # CTA
-    cta_title: "Non perderti questa giornata di formazione avanzata"
+  #   <br> <br />Il workshop verrà confermato il 23 Ottobre, al raggiungimento del numero minimo di partecipanti. In caso di annullamento i biglietti saranno rimborsati.
+  #   <b>Acquista subito il tuo biglietto per assicurarti il prezzo più basso!</b>
+  #   <br> <br /> Schema di pricing dei biglietti per il workshop:
+  #   <li>Very Early Bird (159€+iva): disponibili 5 posti, biglietti in vendita fino al 12 Ottobre 2023.
+  #   <li>Early Bird (199€+iva): disponibili 10 posti, biglietti in vendita fino al 22 Ottobre 2023.
+  #   <li>Regular (219€+iva): biglietti in vendita fino al 1 Novembre.
+  #   <li>Late Bird (239€+iva): ultimi posti, in vendita dal 2 Novembre."
+  #   # CTA
+  #   cta_title: "Non perderti questa giornata di formazione avanzata"
 
-  workshop_CQRS:
-    ws_id: workshop_CQRS
-    is_external: false
-    page_uri: "workshop/workshop_CQRS.html"
-    page_title: "Workshop: Event Sourcing / CQRS con Laravel"
-    workshop_title: "Event Sourcing / CQRS con Laravel"
-    ticket_url: "https://ti.to/grusp/laravelday-2023"
-    ticket_label: "Assicurati un posto"
-    location_title: "Dove"
-    location: "Verona"
-    # online_location: "online"
-    location_name: "Hotel San Marco, Verona"
-    # location_name: "The Internet"
-    #location_contact_phone: "+045569011"
-    #location_contact_email: "sanmarco@sanmarco.vr.it"
-    location_contact_url: "https://www.sanmarco.vr.it/"
-    location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
-    location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
-    location_maps_label: "Get directions"
-    location_additional_info: "L'hotel offre tariffe convenzionate a chi partecipa all'evento."
-    whatandwhen_title: "Come e quando"
-    # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-    whatandwhen_additional_info: "Il corso si svolge in presenza, Mercoledì 8 Novembre 2023 dalle 9:30 alle 17:30."
-    date: 2023-11-8T09:30+01:00
-    end_date: 2023-11-8T17:30+01:00
-    date_text: "Mercoledì 8 Novembre 2023, dalle 9:30 alle 17:30."
-    language_title: "Lingua"
-    language: "Italiano"
-    language_ext: ""
-    language_additional_info: ""
-    collab: ""
-    description: "Teoria e pratica delle architetture CQRS"
-    description_long: "<b>Il workshop ha lo scopo di dare un preparazione teorica e pratica sulla metodologia Event Sourcing / CQRS.</b>
-    <br> <br /> Nella prima parte, teorica, vedremo un possibile percorso che partendo dal monolite (la soluzione più adottata da chi sviluppa software), può arrivare ad evolverlo fino ad un'architettura Event Sourcing / CQRS, passando dai Microservizi.
-    <br> Vedremo i concetti base dell'event sourcing, le problematiche comuni e le scelte tecnologiche standard.
-    <br> <br /> La parte principale del workshop, quella pratica, verrà svolta in modalità Live Coding, con lo svolgimento passo a passo insieme a chi partecipa.
-    Affronteremo l'implementazione di un esempio pratico, sfruttando come base la libreria laravel-event-sourcing di Spatie, Laravel e Docker."
-    # video trailer?
-    trailer: false
-    trailer_url: ""
-    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-    teacher_title: "Docente"
-    teachers:
-      teacher_1:
-        teacher_name: "Christian Nastasi"
-        teacher_bio: "Sviluppo progetti digitali da svariati anni, e metà della mia carriera l'ho dedicata al mondo PHP e Laravel, approfondendo con il tempo tematiche legate al design e alle architetture del software.
-        Nell'ultimo periodo invece mi sto occupando di formazione e crescita professionale all'interno della mia azienda."
-        pic_filename: "christian-nastasi.png"
-        teacher_role: "IT Training Manager"
-        teacher_org: "Facile.it"
-    topics_title: "Argomenti che verranno trattati"
-    topics:
-      - "Evoluzioni delle architetture: dal monolite ai microservices"
-      - "Concetti di base dell'event sourcing: Eventi, Reactors, Projectors, Aggregates, Viste, Shapshots"
-      - "Concetti di base del CQRS"
-      - "Introduzione della libreria 'laravel-event-sourcing'"
-      - "Installazione e Set-up del progetto di esempio;"
-      - "Installazione e Set-up della libreria"
-      - "Produzione di un primo esempio event-sourced"
-      - "Serializzazione avanzata degli eventi"
-      - "Analisi dei casi d'uso in modalità Event Storming"
-      - "Sviluppo test funzionali in BDD in modalità blackbox"
-      - "Sviluppo test unitari degli aggregati"
-      - "Implementazione in live coding dei casi d'uso"
-    addressees_title: "Cosa ottieni frequentando il workshop"
-    addressees_description: "Al termine del workshop, chi partecipa sarà in grado di
-    <li>Implementare un'architettura Event Sourced;</li>
-    <li>Utilizzare la libreria di Spatie laravel-event-sourcing;</li>
-    <li>Utilizzare un approccio BDD nello sviluppo di un progetto.</li>"
-    requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Il workshop è di livello intermedio, rivolto a persone che hanno già una buona esperienza sia con Laravel che il linguaggio PHP in generale.
-    <b>Sono richieste delle buone conoscenze di Laravel, PHP 8.x, Git, Docker.</b>"
-    useful_info_title: "Informazioni utili"
-    useful_info_description: "Il corso si svolge a Verona all'hotel San Marco, Mercoledì 8 Novembre 2023 dalle 9:30 alle 17:30.
-    <br>L'iscrizione al workshop include il materiale didattico, il pranzo e le pause caffè.
-    <br>Il biglietto per il workshop NON include quello per la conferenza, e viceversa.
+  # workshop_CQRS:
+  #   ws_id: workshop_CQRS
+  #   is_external: false
+  #   page_uri: "workshop/workshop_CQRS.html"
+  #   page_title: "Workshop: Event Sourcing / CQRS con Laravel"
+  #   workshop_title: "Event Sourcing / CQRS con Laravel"
+  #   ticket_url: "https://ti.to/grusp/laravelday-2023"
+  #   ticket_label: "Assicurati un posto"
+  #   location_title: "Dove"
+  #   location: "Verona"
+  #   # online_location: "online"
+  #   location_name: "Hotel San Marco, Verona"
+  #   # location_name: "The Internet"
+  #   #location_contact_phone: "+045569011"
+  #   #location_contact_email: "sanmarco@sanmarco.vr.it"
+  #   location_contact_url: "https://www.sanmarco.vr.it/"
+  #   location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
+  #   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+  #   location_maps_label: "Get directions"
+  #   location_additional_info: "L'hotel offre tariffe convenzionate a chi partecipa all'evento."
+  #   whatandwhen_title: "Come e quando"
+  #   # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
+  #   whatandwhen_additional_info: "Il corso si svolge in presenza, Mercoledì 8 Novembre 2023 dalle 9:30 alle 17:30."
+  #   date: 2023-11-8T09:30+01:00
+  #   end_date: 2023-11-8T17:30+01:00
+  #   date_text: "Mercoledì 8 Novembre 2023, dalle 9:30 alle 17:30."
+  #   language_title: "Lingua"
+  #   language: "Italiano"
+  #   language_ext: ""
+  #   language_additional_info: ""
+  #   collab: ""
+  #   description: "Teoria e pratica delle architetture CQRS"
+  #   description_long: "<b>Il workshop ha lo scopo di dare un preparazione teorica e pratica sulla metodologia Event Sourcing / CQRS.</b>
+  #   <br> <br /> Nella prima parte, teorica, vedremo un possibile percorso che partendo dal monolite (la soluzione più adottata da chi sviluppa software), può arrivare ad evolverlo fino ad un'architettura Event Sourcing / CQRS, passando dai Microservizi.
+  #   <br> Vedremo i concetti base dell'event sourcing, le problematiche comuni e le scelte tecnologiche standard.
+  #   <br> <br /> La parte principale del workshop, quella pratica, verrà svolta in modalità Live Coding, con lo svolgimento passo a passo insieme a chi partecipa.
+  #   Affronteremo l'implementazione di un esempio pratico, sfruttando come base la libreria laravel-event-sourcing di Spatie, Laravel e Docker."
+  #   # video trailer?
+  #   trailer: false
+  #   trailer_url: ""
+  #   # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+  #   teacher_title: "Docente"
+  #   teachers:
+  #     teacher_1:
+  #       teacher_name: "Christian Nastasi"
+  #       teacher_bio: "Sviluppo progetti digitali da svariati anni, e metà della mia carriera l'ho dedicata al mondo PHP e Laravel, approfondendo con il tempo tematiche legate al design e alle architetture del software.
+  #       Nell'ultimo periodo invece mi sto occupando di formazione e crescita professionale all'interno della mia azienda."
+  #       pic_filename: "christian-nastasi.png"
+  #       teacher_role: "IT Training Manager"
+  #       teacher_org: "Facile.it"
+  #   topics_title: "Argomenti che verranno trattati"
+  #   topics:
+  #     - "Evoluzioni delle architetture: dal monolite ai microservices"
+  #     - "Concetti di base dell'event sourcing: Eventi, Reactors, Projectors, Aggregates, Viste, Shapshots"
+  #     - "Concetti di base del CQRS"
+  #     - "Introduzione della libreria 'laravel-event-sourcing'"
+  #     - "Installazione e Set-up del progetto di esempio;"
+  #     - "Installazione e Set-up della libreria"
+  #     - "Produzione di un primo esempio event-sourced"
+  #     - "Serializzazione avanzata degli eventi"
+  #     - "Analisi dei casi d'uso in modalità Event Storming"
+  #     - "Sviluppo test funzionali in BDD in modalità blackbox"
+  #     - "Sviluppo test unitari degli aggregati"
+  #     - "Implementazione in live coding dei casi d'uso"
+  #   addressees_title: "Cosa ottieni frequentando il workshop"
+  #   addressees_description: "Al termine del workshop, chi partecipa sarà in grado di
+  #   <li>Implementare un'architettura Event Sourced;</li>
+  #   <li>Utilizzare la libreria di Spatie laravel-event-sourcing;</li>
+  #   <li>Utilizzare un approccio BDD nello sviluppo di un progetto.</li>"
+  #   requirements_title: "Requisiti di partecipazione"
+  #   requirements_description: "Il workshop è di livello intermedio, rivolto a persone che hanno già una buona esperienza sia con Laravel che il linguaggio PHP in generale.
+  #   <b>Sono richieste delle buone conoscenze di Laravel, PHP 8.x, Git, Docker.</b>"
+  #   useful_info_title: "Informazioni utili"
+  #   useful_info_description: "Il corso si svolge a Verona all'hotel San Marco, Mercoledì 8 Novembre 2023 dalle 9:30 alle 17:30.
+  #   <br>L'iscrizione al workshop include il materiale didattico, il pranzo e le pause caffè.
+  #   <br>Il biglietto per il workshop NON include quello per la conferenza, e viceversa.
 
-    <br> <br />Il workshop verrà confermato il 23 Ottobre, al raggiungimento del numero minimo di partecipanti. In caso di annullamento i biglietti saranno rimborsati.
-    <b>Acquista subito il tuo biglietto per assicurarti il prezzo più basso!</b>
-    <br> <br /> Schema di pricing dei biglietti per il workshop:
-    <li>Very Early Bird (159€+iva): disponibili 5 posti, biglietti in vendita fino al 12 Ottobre 2023.
-    <li>Early Bird (199€+iva): disponibili 10 posti, biglietti in vendita fino al 22 Ottobre 2023.
-    <li>Regular (219€+iva): biglietti in vendita fino al 1 Novembre.
-    <li>Late Bird (239€+iva): ultimi posti, in vendita dal 2 Novembre."
-    # CTA
-    cta_title: "Non perderti questa giornata di formazione!"
+  #   <br> <br />Il workshop verrà confermato il 23 Ottobre, al raggiungimento del numero minimo di partecipanti. In caso di annullamento i biglietti saranno rimborsati.
+  #   <b>Acquista subito il tuo biglietto per assicurarti il prezzo più basso!</b>
+  #   <br> <br /> Schema di pricing dei biglietti per il workshop:
+  #   <li>Very Early Bird (159€+iva): disponibili 5 posti, biglietti in vendita fino al 12 Ottobre 2023.
+  #   <li>Early Bird (199€+iva): disponibili 10 posti, biglietti in vendita fino al 22 Ottobre 2023.
+  #   <li>Regular (219€+iva): biglietti in vendita fino al 1 Novembre.
+  #   <li>Late Bird (239€+iva): ultimi posti, in vendita dal 2 Novembre."
+  #   # CTA
+  #   cta_title: "Non perderti questa giornata di formazione!"
