@@ -24,23 +24,27 @@ gold:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
-  sponsor0:
+  sponsor1:
    name: "Aulab"
    logo_filename: "aulab.svg"
    site_url: "https://aulab.it/"
-  sponsor1:
+  sponsor2:
     name: "axelerant"
     logo_filename: "axelerant.png"
     site_url: "https://www.axelerant.it"
-  sponsor2:
+  sponsor3:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor3:
+  sponsor4:
     name: "Inspector"
     logo_filename: "inspector.svg"
     site_url: "https://inspector.dev"
-  sponsor4:
+  sponsor5:
+    name: "jobtech"
+    logo_filename: "jobtech.svg"
+    site_url: "https://jobtech.it/"
+  sponsor6:
     name: "Offdigit"
     logo_filename: "offdigit.svg"
     site_url: "https://offdigit.com/"
